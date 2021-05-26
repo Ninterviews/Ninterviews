@@ -1,0 +1,16 @@
+
+kramdown:
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-sass-converter
+timezone: Asia/Shanghai
+sass:
+  load_paths:
+    - css
+    - node_modules/bootstrap
+  sourcemap: always
+  style: compressed
