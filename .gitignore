@@ -13,3 +13,6 @@ vendor/
 
 # Bootstrap
 node_modules/bootstrap/
+
+# Debug
+Debug/

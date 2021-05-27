@@ -1,5 +1,7 @@
 ---
 layout: default
+no_date: true
+no_sidenav: true
 ---
 <div>{% for category in site.data.categories %}{% assign collection = site.collections | where: "label", category.label | first %}
   <div>

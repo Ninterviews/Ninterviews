@@ -17,7 +17,13 @@ h3 {
   background-color: #f2f2f2;
 }
 
+h5 {
+  padding-left: calc(1em - 5px);
+  border-left: 5px solid #bbb;
+}
+
 .question {
+  border-left: none;
   position: relative;
   padding-left: 2.5em;
   margin-top: 60px;
@@ -30,11 +36,6 @@ h3 {
   display: block;
   width: 2em;
   content: '——';
-}
-
-.border-left {
-  padding-left: calc(1em - 5px);
-  border-left: 5px solid;
 }
 
 .border-blue {
@@ -54,7 +55,7 @@ h3 {
 }
 
 .border-red {
-  border-color: var(--color-warm);
+  border-color: #e60012;
 }
 
 .youtube-video {

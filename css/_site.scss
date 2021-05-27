@@ -1,3 +1,20 @@
+/* content */
+.ni-content-main {
+  & > *:first-child {
+    margin-top: 0;
+  }
+
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ni-content-main:not(:only-child) {
+    border-right: 1px solid #d9d9d9;
+  }
+}
+
 /* heading */
 .ni-heading {
   margin-top: 30px;
@@ -23,10 +40,14 @@
   }
 }
 
-/* content */
-@media screen and (min-width: 992px) {
-  .ni-content-main:not(:only-child) {
-    border-right: 1px solid #d9d9d9;
+.ni-content-image {
+  border: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  figcaption {
+    display: none;
   }
 }
 

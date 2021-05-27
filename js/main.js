@@ -37,6 +37,9 @@ $(function () {
 
   /* resize */
   window.windowResize = function () {
+    $("body").css({
+      "margin-bottom": $(".ni-footer").outerHeight() + 30
+    });
     $(".ni-sidenav-list").affix({
       "offset": {
         "top": $(".ni-content-main").offset().top,

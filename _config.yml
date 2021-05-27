@@ -20,17 +20,23 @@ collections:
 defaults:
   - values:
       layout: "default"
+      license: "cc-by-nc-sa-4.0"
       head_image_width: 1280
       head_image_height: 720
+  - scope:
+      path: "*/index.html"
+    values:
+      no_date: true
+      no_sidenav: true
 exclude:
+  - Debug/
   - node_modules/
 kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 markdown: kramdown
-name: 任天堂开发者访谈翻译
+name: 任天堂开发者访谈保存计划
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-sass-converter
 timezone: Asia/Shanghai
