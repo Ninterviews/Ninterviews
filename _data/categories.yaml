@@ -1,0 +1,18 @@
+- label: switch
+  name: Nintendo Switch
+  abbr: Switch
+- label: wiiu
+  name: Wii U
+  abbr: Wii U
+- label: 3ds
+  name: Nintendo 3DS
+  abbr: 3DS
+- label: wii
+  name: Wii
+  abbr: Wii
+- label: ds
+  name: Nintendo DS
+  abbr: DS
+- label: other
+  name: 其他
+  abbr: 其他

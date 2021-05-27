@@ -1,0 +1,46 @@
+    <div class="ni-content container">
+      <div class="row">
+        <div class="ni-content-main col-sm-{% if page.no_sidenav %}12{% else %}9{% endif %}">
+          <div class="ni-heading">{% if page.title and page.title != "" %}{% unless page.slug == "index" %}
+            <div class="ni-heading-date">{{ page.date | date: "%Y" }}.{{ page.date | date: "%m" | plus: 0 }}.{{ page.date | date: "%d" | plus: 0 }}</div>{% endunless %}{% endif %}
+            <h1>{{ page.title | default: site.name }}</h1>
+          </div>
+          <article>
+{{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+          </article>{% if page.sources or page.references or page.links or page.logs %}
+          <div class="ni-infobox-bottom">{%if page.sources %}
+            <div class="ni-info-sources">
+              <div class="ni-info-sources-head">源地址</div>
+              <ul>{% for source in page.sources %}
+                <li><a lang="ja" href="{{ source[0] }}">{{ source[1] }}</a></li>{% endfor %}
+              </ul>
+            </div>{% endif %}{%if page.references %}
+            <div class="ni-info-references">
+              <div class="ni-info-references-head">参考资料</div>
+              <ul>{% for reference in page.references %}
+                <li><a href="{{ reference[0] }}">{{ reference[1] }}</a></li>{% endfor %}
+              </ul>
+            </div>{% endif %}{%if page.links %}
+            <div class="ni-info-links">
+              <div class="ni-info-links-head">相关链接</div>
+              <ul>{% for link in page.links %}
+                <li><a href="{{ link[0] }}">{{ link[1] }}</a></li>{% endfor %}
+              </ul>
+            </div>{% endif %}{%if page.logs %}
+            <div class="ni-info-logs">
+              <div class="ni-info-logs-head">更新历史</div>
+              <ul>{% for log in page.logs %}
+                <li>{{ log }}</li>{% endfor %}
+              </ul>
+            </div>{% endif %}
+          </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
+          <div class="ni-content-comment hidden-print">
+            <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
+            <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>
+          </div>{% endunless %}
+        </div>{% unless page.no_sidenav %}
+        <div class="ni-sidenav col-sm-3 hidden-print hidden-xs">
+          {% include toc.html html=content h_max=4 class="ni-sidenav-list nav nav-stacked affix" submenu_class="nav nav-stacked" %}
+        </div>{% endunless %}
+      </div>
+    </div>

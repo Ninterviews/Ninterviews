@@ -10,3 +10,6 @@ _site/
 # Bundler
 .bundle/
 vendor/
+
+# Bootstrap
+node_modules/bootstrap/

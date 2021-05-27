@@ -1,8 +1,34 @@
-
+collections:
+  switch:
+    output: true
+    sort_by: date
+  wiiu:
+    output: true
+    sort_by: date
+  3ds:
+    output: true
+    sort_by: date
+  wii:
+    output: true
+    sort_by: date
+  ds:
+    output: true
+    sort_by: date
+  other:
+    output: true
+    sort_by: date
+defaults:
+  - values:
+      layout: "default"
+      head_image_width: 1280
+      head_image_height: 720
+exclude:
+  - node_modules/
 kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 markdown: kramdown
+name: 任天堂开发者访谈翻译
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -11,6 +37,5 @@ timezone: Asia/Shanghai
 sass:
   load_paths:
     - css
-    - node_modules/bootstrap
   sourcemap: always
   style: compressed
