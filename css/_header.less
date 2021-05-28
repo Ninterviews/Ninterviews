@@ -1,0 +1,76 @@
+/* header */
+@navbar-default-bg: #fff;
+@navbar-default-border: @gray-lighter;
+@navbar-default-color: #fff;
+
+@navbar-default-brand-color: #fff;
+@navbar-default-brand-hover-color: @color-warm-lighter;
+@navbar-default-brand-hover-bg: @color-warm;
+.navbar-default .navbar-brand {
+ background-color: @color-warm;
+}
+
+@navbar-default-link-color: @gray;
+@navbar-default-link-hover-color: @color-warm;
+@navbar-default-link-active-color: @color-warm;
+
+.ni-navbar {
+  text-align: center;
+}
+
+.ni-navbar-item(@key) {
+  @name-key: ~'color-@{key}';
+  .navbar-default .navbar-nav > .ni-navbar-item-@{key} {
+    &.active > a, > a:hover, > a:focus {
+      color: @@name-key;
+
+      .ni-navbar-icon {
+        fill: @@name-key;
+      }
+    }
+  }
+}
+
+.ni-navbar-item(switch);
+.ni-navbar-item(wiiu);
+.ni-navbar-item(3ds);
+.ni-navbar-item(wii);
+.ni-navbar-item(ds);
+.ni-navbar-item(other);
+
+.ni-navbar-icon {
+  width: 30px;
+  height: 30px;
+  fill: #888;
+  margin-right: 10px;
+  vertical-align: middle;
+
+  .active &, a:hover &, a:focus & {
+    fill: #e60012;
+  }
+}
+
+@media screen and (max-width: @grid-float-breakpoint-max) {
+  .ni-navbar > ul {
+    display: flex;
+  }
+
+  .ni-navbar-item {
+    flex: 1 0 0%;
+  }
+}
+
+@media screen and (max-width: @screen-sm-max) {
+  .ni-navbar-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: @grid-float-breakpoint) and (max-width: @screen-sm-max) {
+  .navbar-brand {
+    height: @line-height-computed + @navbar-padding-vertical * 2 + 30px;
+    line-height: @line-height-computed + 30px;
+  }
+}

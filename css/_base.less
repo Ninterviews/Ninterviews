@@ -1,99 +1,10 @@
 @import "../node_modules/bootstrap/less/bootstrap.less";
 
-/* 覆盖原有变量 */
-@font-size-base: 15px;
-@line-height-base: 2;
+@import "_color.less";
+@import "_font.less";
+@import "_site.less";
 
-@font-size-h1: floor((@font-size-base * 2)); // ~30px
-@font-size-h2: floor((@font-size-base * 1.6)); // ~34px
-@font-size-h3: ceil((@font-size-base * 1.45)); // ~22px
-@font-size-h4: ceil((@font-size-base * 1.2)); // ~18px
-@font-size-h5: inherit;
-@headings-font-weight: 700;
-@headings-line-height: @line-height-base;
-
-@blockquote-font-size: 0.75em;
-blockquote {
-  color: @gray;
-
-  p {
-    margin-bottom: 0;
-  }
-}
-@blockquote-border-color: transparent;
-
-@grid-float-breakpoint: 700px;
-@container-tablet: 100%;
-
-@icon-font-path: "https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/fonts/";
-
-/* 颜色 */
-@gray: #888;
-@color-warm: #e60012;
-@color-cold: #19ffed;
-
-@color-warm-light: lighten(@color-warm, 30%);
-@color-warm-lighter: lighten(@color-warm, 50%);
-@color-warm-dark: darken(@color-warm, 20%);
-@color-warm-darker: darken(@color-warm, 40%);
-@color-cold-light: lighten(@color-cold, 20%);
-@color-cold-lighter: lighten(@color-cold, 40%);
-@color-cold-dark: darken(@color-cold, 30%);
-@color-cold-darker: darken(@color-cold, 50%);
-
-/* */
-html {
- font-size: 15px;
-}
-
-/* 导航条 */
-@navbar-default-bg: #fff;
-@navbar-default-border: @gray-lighter;
-@navbar-default-color: #fff;
-
-@navbar-default-brand-color: #fff;
-@navbar-default-brand-hover-color: @color-warm-lighter;
-@navbar-default-brand-hover-bg: @color-warm;
-.navbar-default .navbar-brand {
- background-color: @color-warm;
-}
-
-@navbar-default-link-color: @gray;
-@navbar-default-link-hover-color: @color-warm;
-@navbar-default-link-active-color: @color-warm;
-
-:root {
- --color-cold: @color-cold;
- --color-cold-light: @color-cold-light;
- --color-cold-lighter: @color-cold-lighter;
- --color-cold-dark: @color-cold-dark;
- --color-cold-darker: @color-cold-darker;
- --color-warm: @color-warm;
- --color-warm-light: @color-warm-light;
- --color-warm-lighter: @color-warm-lighter;
- --color-warm-dark: @color-warm-dark;
- --color-warm-darker: @color-warm-darker;
-}
-
-/* 图片 */
-figure {
-  padding: @font-size-base;
-  margin: @font-size-base auto;
-  width: fit-content;
-  font-size: 0.75em;
-  text-align: center;
-  color: @gray;
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-/* 文章 */
-article {
-  font-size: 18px;
-}
+@import "_header.less";
+@import "_content.less";
+@import "_sidenav.less";
+@import "_footer.less";

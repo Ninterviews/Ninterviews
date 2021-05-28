@@ -1,0 +1,93 @@
+/* content */
+/* heading */
+.ni-heading {
+  margin-top: 30px;
+  border-top: 4px solid #bbb;
+  padding: 26px 0;
+}
+
+.ni-heading-date {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  color: var(--color-warm);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 0;
+    left: 0;
+    height: 4px;
+    background-color: var(--color-warm);
+  }
+}
+
+.ni-content-image {
+  border: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  figcaption {
+    display: none;
+  }
+}
+
+/* main */
+.ni-content-main {
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: @screen-md-min) {
+  .ni-content-main:not(:only-child) {
+    border-right: 1px solid #d9d9d9;
+  }
+}
+
+
+/* links */
+.ni-infobox-bottom {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #d9d9d9;
+  font-weight: 700;
+  font-size: 0.8em;
+
+  &::before {
+    position: absolute;
+    top: -2px;
+    left: 20px;
+    display: block;
+    width: 4.4em;
+    border-top: 2px solid var(--color-warm);
+    content: '';
+  }
+
+  > div > div:first-child {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+
+  > div:last-child > ul {
+    margin-bottom: 0;
+  }
+
+  ul {
+    list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23e60012%22%20width%3D%2211%22%20height%3D%2211%22%20viewBox%3D%220%200%201650%201650%22%3E%3Cpath%20d%3D%22M825%200C368%200%200%20368%200%20825s368%20825%20825%20825%20825-369%20825-825S1281%200%20825%200zm253%20883c0%203-3%203-6%206%200%200-264%20264-300%20297-38%2033-99%2033-138%200-36-30-41-80-11-116l11-11%20237-234-236-234c-36-30-41-80-11-115l11-11c38-33%2099-33%20138%200%2036%2033%20300%20297%20300%20297%2033%2033%2038%2085%205%20121z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+  }
+
+  a {
+    word-break: break-all;
+    color: inherit;
+  }
+}

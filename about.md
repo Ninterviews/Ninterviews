@@ -1,9 +1,10 @@
 ---
-date: 2021-05-27
+date: 2021-05-2
+last_modified_at: 2021-05-28 00:02
 no_sidenav: true
 title: 关于本计划
 ---
-任天堂前社长岩田聪先生在世的时候，曾设立了“社长提问”（[<span lang="ja">社長が訊く</span>](https://www.nintendo.co.jp/corporate/links/index.html)）这个栏目。在他去世后，这个栏目就没有再更新过。此后任天堂开发者参与的访谈少之又少。
+任天堂前社长岩田聪先生在世的时候，曾设立了“社长提问”（[<span lang="ja">社長が訊く</span>](https://www.nintendo.co.jp/corporate/links/index.html)）这个栏目。在他去世后，这个栏目就没有再更新过。此后任天堂开发者参与的访谈很少出现在任天堂官网上。
 
 为了尽可能保存这些珍贵的资料，我整理了一些开发者访谈的翻译，按照主机分类。希望能够借此来让更多人了解任天堂、了解任天堂游戏幕后的开发者。
 

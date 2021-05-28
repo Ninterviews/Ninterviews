@@ -1,0 +1,44 @@
+/* 颜色 */
+@gray: #888;
+@gray-light: #aaa;
+
+@brand-primary: #007fff;
+
+@color-warm: #e60012;
+@color-cold: #19ffed;
+
+@color-warm-light: lighten(@color-warm, 30%);
+@color-warm-lighter: lighten(@color-warm, 50%);
+@color-warm-dark: darken(@color-warm, 20%);
+@color-warm-darker: darken(@color-warm, 40%);
+@color-cold-light: lighten(@color-cold, 20%);
+@color-cold-lighter: lighten(@color-cold, 40%);
+@color-cold-dark: darken(@color-cold, 30%);
+@color-cold-darker: darken(@color-cold, 50%);
+
+@color-switch: #e60012;
+@color-wiiu: #0096c8;
+@color-3ds: #c61a11;
+@color-wii: #34beed;
+@color-ds: #ff418c;
+@color-other: #000;
+
+:root {
+  --color-cold: @color-cold;
+  --color-cold-light: @color-cold-light;
+  --color-cold-lighter: @color-cold-lighter;
+  --color-cold-dark: @color-cold-dark;
+  --color-cold-darker: @color-cold-darker;
+  --color-warm: @color-warm;
+  --color-warm-light: @color-warm-light;
+  --color-warm-lighter: @color-warm-lighter;
+  --color-warm-dark: @color-warm-dark;
+  --color-warm-darker: @color-warm-darker;
+  
+  --color-switch: @color-switch;
+  --color-wiiu: @color-wiiu;
+  --color-3ds: @color-3ds;
+  --color-wii: @color-wii;
+  --color-ds: @color-ds;
+  --color-other: @color-other;
+}
