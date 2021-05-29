@@ -6,7 +6,7 @@ no_sidenav: true
 <div>{% for category in site.data.categories %}{% assign collection = site.collections | where: "label", category.label | first %}
   <div>
     <div>{{ category.name }}</div>
-    <ul>{% for interview in collection.docs %}{% unless interview.slug == "index" %}
+    <ul>{% for interview in collection.docs %}{% unless interview.no_date %}
       <li><a href="{{ interview.url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y" }}.{{ interview.date | date: "%m" | plus: 0 }}.{{ interview.date | date: "%d" | plus: 0 }}]</li>{% endunless %}{% endfor %}
     </ul>
   </div>{% endfor %}

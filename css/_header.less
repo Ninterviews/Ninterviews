@@ -50,13 +50,25 @@
   }
 }
 
+@media screen and (max-width: (@screen-xs-min - 1)) {
+  .ni-navbar-item {
+    width: 33%;
+  }
+}
+
 @media screen and (max-width: @grid-float-breakpoint-max) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+
   .ni-navbar > ul {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .ni-navbar-item {
-    flex: 1 0 0%;
+    flex: 1 0 auto;
   }
 }
 

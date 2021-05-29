@@ -17,6 +17,7 @@ collections:
   other:
     output: true
     sort_by: date
+collections_dir: pages
 defaults:
   - values:
       layout: "default"
@@ -24,7 +25,7 @@ defaults:
       head_image_width: 1280
       head_image_height: 720
   - scope:
-      path: "*/index.html"
+      path: "*/index.*"
     values:
       no_date: true
       no_sidenav: true

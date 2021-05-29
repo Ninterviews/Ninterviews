@@ -23,13 +23,18 @@
   float: right;
 }
 
+.ni-footer-links {
+  & > li:not(:last-child)::after {
+    content: ' \00b7 ';
+  }
+}
+
 .ni-footer-icons, .ni-footer-links {
   list-style: none;
   padding-left: 0;
 
   > li {
     display: inline-block;
-    margin-right: 1em;
   }
 }
 
