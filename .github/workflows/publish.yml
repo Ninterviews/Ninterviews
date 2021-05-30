@@ -1,0 +1,41 @@
+name: Publish
+
+on:
+  push:
+    branches: 
+      - master
+  pull_request:
+    branches: 
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        bundler-cache: true
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Npm
+      run: |
+        npm install
+    - name: Less
+      run: |
+        ./node_modules/less/bin/lessc -x css/_base.less css/base.css
+    - name: Build Site
+      run: |
+        bundle exec jekyll build --trace --profile
+      env:
+        JEKYLL_ENV: aliyun
+    - name: Config Ossutil
+      run: |
+        wget -q http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64
+        chmod +x ossutil64
+        ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
+    - name: Publish Site
+      run: |
+        ./ossutil64 cp -r -f -u _site/ oss://xzonn-ninterviews/ --jobs 1000 --retry-times 3 --loglevel info

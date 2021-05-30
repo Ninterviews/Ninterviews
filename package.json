@@ -1,0 +1,28 @@
+{
+  "name": "ninterviews",
+  "version": "0.0.1",
+  "description": "no description",
+  "main": "index.html",
+  "dependencies": {
+    "less": "^4.1.1",
+    "bootstrap": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Hello, World!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninterviews/ninterviews.github.io.git"
+  },
+  "keywords": [
+    "Nintendo",
+    "Interview"
+  ],
+  "author": "Xzonn",
+  "license": "CC-BY-NC-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/Ninterviews/ninterviews.github.io/issues"
+  },
+  "homepage": "https://ninterviews.xzonn.top/"
+}

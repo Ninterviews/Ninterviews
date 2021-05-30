@@ -11,8 +11,11 @@ _site/
 .bundle/
 vendor/
 
-# Bootstrap
-node_modules/bootstrap/
+# Npm
+node_modules/
+
+# Ossutil
+ossutil64
 
 # Debug
 Debug/

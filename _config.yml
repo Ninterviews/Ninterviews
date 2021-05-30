@@ -32,6 +32,11 @@ defaults:
 exclude:
   - Debug/
   - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
 kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
