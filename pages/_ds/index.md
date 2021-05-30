@@ -1,0 +1,4 @@
+---
+layout: category_index
+title: Nintendo DS
+---

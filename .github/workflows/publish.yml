@@ -31,6 +31,12 @@ jobs:
         bundle exec jekyll build --trace --profile
       env:
         JEKYLL_ENV: aliyun
+    - name: Update Algolia index
+      run: |
+        bundle exec jekyll algolia push
+      env:
+        ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+      continue-on-error: true
     - name: Config Ossutil
       run: |
         wget -q http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64

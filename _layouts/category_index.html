@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="ni-category">{% assign collection = site.collections | where: "label", page.collection | first %}
   <div>
-    <ul class="ni-category-list">{% for interview in collection.docs %}{% unless interview.no_date or interview.slug == "index" %}
+    <ul class="ni-category-list">{% for interview in collection.docs %}{% unless interview.no_date %}
       <li><a href="{{ interview.url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y" }}.{{ interview.date | date: "%m" | plus: 0 }}.{{ interview.date | date: "%d" | plus: 0 }}]</li>{% endunless %}{% endfor %}
     </ul>
   </div>
