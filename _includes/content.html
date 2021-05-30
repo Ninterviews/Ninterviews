@@ -4,10 +4,12 @@
           <div class="ni-heading">{% unless page.no_date %}
             <div class="ni-heading-date">{{ page.date | date: "%Y" }}.{{ page.date | date: "%m" | plus: 0 }}.{{ page.date | date: "%d" | plus: 0 }}</div>{% endunless %}
             <h1>{{ page.title | default: site.name }}</h1>
-          </div>{% if page.head_image %}
-{% include figure.html blank="                    " src=page.head_image alt=page.title width=page.head_image_width height=page.head_image_height no_link=true class="ni-content-image" %}{% endif %}
-          <article>
-{{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+          </div>{% if page.image != site.default_image %}
+{% include figure.html blank="          " src=page.image alt=page.title width=page.image_width height=page.image_height no_link=true class="ni-content-image" %}{% endif %}
+          <article>{% capture LINE_BREAK %}
+{% endcapture %}{% capture LINE_BREAK_INDENT %}
+            {% endcapture %}
+            {{ content | replace: LINE_BREAK, LINE_BREAK_INDENT | replace: '<a href="http', '<a target="_blank" href="http' }}
           </article>{% if page.sources or page.references or page.links or page.logs %}
           <div class="ni-infobox-bottom">{%if page.sources %}
             <div class="ni-info-sources">

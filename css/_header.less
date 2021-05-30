@@ -37,13 +37,14 @@
 .ni-navbar-item(wii);
 .ni-navbar-item(ds);
 .ni-navbar-item(other);
+.ni-navbar-item(search);
 
 .ni-navbar-icon {
+  margin-right: 10px;
   width: 30px;
   height: 30px;
-  fill: #888;
-  margin-right: 10px;
   vertical-align: middle;
+  fill: #888;
 
   .active &, a:hover &, a:focus & {
     fill: #e60012;
@@ -75,8 +76,8 @@
 @media screen and (max-width: @screen-sm-max) {
   .ni-navbar-icon {
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 

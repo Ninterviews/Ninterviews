@@ -1,11 +1,11 @@
 ---
 date: 2016-12-15
-head_image: https://topics-cdn.nintendo.co.jp/image/2019/08/26025552238023/0/00000494_820_461.jpg
-head_image_height: 461
-head_image_width: 820
+image: https://topics-cdn.nintendo.co.jp/image/2019/08/26025552238023/0/00000494_820_461.jpg
+image_height: 461
+image_width: 820
 interviewees: 
 - 河本浩一
-last_modified_at: 2021-05-29 18:02
+last_modified_at: 2021-05-30 21:25
 links: 
 - - https://www.nintendo.co.jp/3ds/adqj/index.html
   - 3DS《迷托邦》官网

@@ -1,13 +1,13 @@
 ---
 date: 2020-01-08
-head_image: https://topics-cdn.nintendo.co.jp/image/2020/01/20044715668580/0/00001887_820_461.jpg
-head_image_height: 461
-head_image_width: 820
+image: https://topics-cdn.nintendo.co.jp/image/2020/01/20044715668580/0/00001887_820_461.jpg
+image_height: 461
+image_width: 820
 interviewees: 
 - 河本浩一
 - 久保坚太
 - 川岛隆太
-last_modified_at: 2021-05-28 22:58
+last_modified_at: 2021-05-30 21:25
 links: 
 - - https://www.nintendo.co.jp/switch/as3ma/index.html
   - 《脑科学专家 川岛隆太博士监修 大人的Nintendo Switch脑部锻炼》官网

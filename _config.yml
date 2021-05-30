@@ -1,6 +1,22 @@
 algolia:
   application_id: "TN8HK9FU3W"
   index_name: "ninterviews"
+  files_to_exclude:
+    - index.html
+    - index.md
+    - pages/**/index.*
+  settings:
+    searchableAttributes:
+      - title
+      - unordered(content)
+      - unordered(interviewees)
+    attributesToHighlight:
+      - content
+      - html
+      - interviewees
+      - tags
+      - title
+author: Xzonn
 collections:
   switch:
     output: true
@@ -21,14 +37,16 @@ collections:
     output: true
     sort_by: date
 collections_dir: pages
+default_image: https://www.nintendo.co.jp/img/og_nintendo.png
 defaults:
   - values:
       layout: "default"
       license: "cc-by-nc-sa-4.0"
-      head_image_width: 1280
-      head_image_height: 720
+      image: https://www.nintendo.co.jp/img/og_nintendo.png
+      image_width: 1200
+      image_height: 630
   - scope:
-      path: "*/index.md"
+      path: "pages/*/index.*"
     values:
       no_date: true
       no_sidenav: true
@@ -43,12 +61,15 @@ exclude:
 kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
+locale: zh_CN
 markdown: kramdown
 name: 任天堂开发者访谈保存计划
 plugins:
   - jekyll-sitemap
   - jekyll-sass-converter
 timezone: Asia/Shanghai
+title: 任天堂开发者访谈保存计划
+url: https://ninterviews.xzonn.top
 sass:
   load_paths:
     - css

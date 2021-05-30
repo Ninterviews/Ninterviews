@@ -1,15 +1,15 @@
 ---
 date: 2011-07-05
-head_image: https://www.nintendo.co.jp/3ds/interview/anrj/vol1/img/mainvisual1.jpg
-head_image_height: 227
-head_image_width: 740
+image: https://www.nintendo.co.jp/3ds/interview/anrj/vol1/img/mainvisual1.jpg
+image_height: 227
+image_width: 740
 interviewees: 
 - 高野充浩
 - 天野裕介
 - Dylan Cuthbert
 - 宫本茂
 - 岩田聪
-last_modified_at: 2021-05-27 18:39
+last_modified_at: 2021-05-30 21:25
 license: official
 links: 
 - - https://www.nintendo.co.jp/3ds/anrj/index.html

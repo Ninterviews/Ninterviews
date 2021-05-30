@@ -1,11 +1,13 @@
 ---
 date: 2020-09-04
-head_image: https://switch-cn.gtgres.com/global-image/1b3a8f30-f266-11ea-abbd-e1aeab85f975.png
+image: https://switch-cn.gtgres.com/global-image/1b3a8f30-f266-11ea-abbd-e1aeab85f975.png
+image_height: 720
+image_width: 1280
 interviewees: 
 - 田邨嘉隆
 - 河本浩一
 - 松永浩志
-last_modified_at: 2021-05-28 23:50
+last_modified_at: 2021-05-30 21:48
 license: official
 links: 
 - - https://www.nintendo.co.jp/ring/index.html
