@@ -6,7 +6,8 @@ image_width: 768
 interviewees: 
 - 宫本茂
 - 岩田聪
-last_modified_at: 2021-05-30 23:38
+last_modified_at: 2021-05-31 21:37
+license: official
 links: 
 - - https://www.nintendo.co.jp/wii/smnj/index.html
   - 《New 超级马力欧兄弟 Wii》官网
@@ -18,6 +19,11 @@ sources:
   - 社長が訊く『New スーパーマリオブラザーズ Wii』
 title: 社长提问《New 超级马力欧兄弟 Wii》
 ---
+{% include subnav.html links="/wii/smnj.html,其一|/wii/smnj_02.html,其二|/wii/smnj_03.html,其三,disabled" %}
+
+- **宫本茂**（<span lang="ja">宮本　茂</span>）：任天堂专务取缔役 情报开发本部长。
+- **岩田聪**（<span lang="ja">岩田　聡</span>）：任天堂取缔役社长。
+
 ### 1. 一开始不会跳的马力欧
 ##### 岩田
 今日的主题虽然是《New 超级马力欧兄弟 Wii》，但我们不是从最新作品直接切入，我想来请你由谈谈马力欧的起源开始。当然，知道的人一定很清楚，但我想，不知道的人就完全不知道了。
@@ -32,9 +38,9 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 好的。虽然到目前为止，人家来访问我时我已经说过好几百次了，我讲快一点好了（笑）。在《吃豆人》（Pac-Man）<sup>[※1](#ref-1)</sup>的时代，电子游戏机中心里流行的游戏有好几个，任天堂虽然也推[《Sheriff》](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide001.jpg?width=251&height=412){: .figure-link }<sup>[※2](#ref-2)</sup>等等，但是很难达到热门的程度。
 
 ##### 岩田
-当时的任天堂是在发售Family Computer之前，在制造电子游戏机中心用的游戏框体，但还没有做出热门作品。
+当时的任天堂是在发售Famicom之前，在制造电子游戏机中心用的游戏框体，但还没有做出热门作品。
 
-> ※1　《吃豆人》：由Namco（现万代南梦宫游戏），在1980年发售的大型街机游戏。在世界中十分热门，后来转移到Family Computer。
+> ※1　《吃豆人》：由Namco（现万代南梦宫游戏）在1980年发售的大型街机游戏。在世界中十分热门，后来移植到Famicom平台。
 > {: #ref-1 }
 > ※2　《Sheriff》：1979年出现，打倒16名亡命之徒的枪战游戏。《瓦力欧制作》（Game Boy Advance）的小游戏中也出现。
 > {: #ref-2 }
@@ -112,7 +118,7 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 
 > ※5　《大力水手》：美国制作的人气动画卡通。除了主角Popeye之外，还出现Olive Oyl及Bluto等具有个性的角色。
 > {: #ref-5 }
-> ※6　《森喜刚》：游戏设计者宫本茂的出道作品。1981年出现在大型电玩台机的动作游戏。1983年Family Computer版发售。
+> ※6　《森喜刚》：游戏设计者宫本茂的出道作品。1981年出现在大型电玩台机的动作游戏。1983年Famicom版发售。
 > {: #ref-6 }
 
 ##### 岩田
@@ -314,13 +320,13 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 ##### 宫本
 [《马力欧兄弟》](https://www.nintendo.co.jp/wii/interview/smnj/vol1/movie/movie002.jpg?width=320&height=280){: .figure-link }<sup>[※10](#ref-10)</sup>。
 
-> ※10　《马力欧兄弟》：大型街机版和Family Computer版均在1983年发售的动作游戏。
+> ※10　《马力欧兄弟》：大型街机版和Famicom版均在1983年发售的动作游戏。
 > {: #ref-10 }
 
 ##### 岩田
 《马力欧兄弟》也是很有趣的游戏乌龟能脱下它龟壳<sup>[※11](#ref-11)</sup>，这是很独特的世界，那时的世界后来持续演变成《超级马力欧兄弟》的世界。
 
-> ※11　乌龟能脱下它龟壳：《马力欧兄弟》在Family Computer和Game Boy Advance都有发售，但乌龟能脱下龟壳的，只有大型街机版。
+> ※11　乌龟能脱下它龟壳：《马力欧兄弟》在Famicom和Game Boy Advance都有发售，但乌龟能脱下龟壳的，只有大型街机版。
 > {: #ref-11 }
 
 ##### 宫本
@@ -509,7 +515,7 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 ##### 岩田
 我记得，《超级马力欧兄弟》的容量程序和绘图的资料加起来，只有40KB而已。
 
-> ※13　《超级马力欧兄弟》：1985年9月，在Family Computer平台发售的动作游戏。
+> ※13　《超级马力欧兄弟》：1985年9月，在Famicom平台发售的动作游戏。
 > {: #ref-13 }
 > ※14　手冢卓志：《超级马力欧》系列、《耀西》系列、《动物森友会》系列等，参与众多的游戏开发。现任天堂情报开发本部制作部部长。
 > {: #ref-14 }
@@ -529,14 +535,14 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 ##### 宫本
 我想是手冢先生吧。在《马力欧3》<sup>[※15](#ref-15)</sup>时，帮栗宝宝加上翅膀叫它[飞行栗宝宝](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide004.jpg?width=400&height=360){: .figure-link }。当时，我们真的做自己喜欢的东西呢。
 
-> ※15　《马力欧3》：《超级马力欧兄弟3》。1988年10月在Family Computer平台发售的动作游戏。
+> ※15　《马力欧3》：《超级马力欧兄弟3》。1988年10月在Famicom平台发售的动作游戏。
 > {: #ref-15 }
 
 {% include figure.html src="https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/mainvisual4.jpg" width="768" height="236" %}
 
 ### 4. 为了让人知道是好蘑菇
 ##### 岩田
-最初，Family Computer的《超级马力欧兄弟》是在什么样的考虑之下，做出来的呢？
+最初，Famicom的《超级马力欧兄弟》是在什么样的考虑之下，做出来的呢？
 
 ##### 宫本
 《马力欧兄弟》之后，各式各样公司出了几个跳跃的游戏。但我觉得跳跃的游戏这种东西是我们自己的创意。
@@ -551,7 +557,7 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 当时的电子游戏是用黑画面玩的居多吧。
 
 ##### 宫本
-因为那样，眼睛就不容易累，所以我们想要保住这个做法。可是，大家也差不多开始觉得看够了，而开始觉得在有变化的原色作为背景玩，应该也不错吧，就刚好在那样时代要改变的时候。所以，把Family Computer的能力发挥到最大极限，让大型角色在海陆空中穿梭为主题，就决定要做《超级马力欧兄弟》。
+因为那样，眼睛就不容易累，所以我们想要保住这个做法。可是，大家也差不多开始觉得看够了，而开始觉得在有变化的原色作为背景玩，应该也不错吧，就刚好在那样时代要改变的时候。所以，把Famicom的能力发挥到最大极限，让大型角色在海陆空中穿梭为主题，就决定要做《超级马力欧兄弟》。
 
 ##### 岩田
 游戏的舞台是海陆空，而且还有地下，在那里让大型角色可以穿梭，这是从最初就决定的事吗？
@@ -568,7 +574,7 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 ##### 岩田
 的确是如此，没错。
 
-> ※16　《Balloon Fight》：1984年大型街机版开始运营，1985年Family Computer版发售的动作游戏。
+> ※16　《Balloon Fight》：1984年大型街机版开始运营，1985年Famicom版发售的动作游戏。
 > {: #ref-16 }
 
 ##### 宫本
@@ -684,17 +690,17 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 对啊（笑）。
 
 ##### 岩田
-所以，我们一口气就追溯到之后的时代，来谈一谈Family Computer 20周年<sup>[※17](#ref-17)</sup>的事吧。在2004年发售了Famicom Mini<sup>[※18](#ref-18)</sup>。那时[《超级马力欧兄弟》也再次](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide005.jpg?width=320&height=384){: .figure-link }以Famicom Mini版上市，宫本先生有什么样的印象呢？
+所以，我们一口气就追溯到之后的时代，来谈一谈Famicom 20周年<sup>[※17](#ref-17)</sup>的事吧。在2004年发售了Famicom Mini<sup>[※18](#ref-18)</sup>。那时[《超级马力欧兄弟》也再次](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide005.jpg?width=320&height=384){: .figure-link }以Famicom Mini版上市，宫本先生有什么样的印象呢？
 
 ##### 宫本
 我觉得以前本来在玩游戏，但渐渐地开始不玩的人越来越多，在理论上我是能了解，但实际上郤没有真实的感受得到。因为，自己也是个玩家啦，而且周围也会有一些喜欢游戏的人聚集在一起。所以做Famicom Mini时，听到其他人有这样的感受，“原来如此啊……虽然记得马力欧但是忘记玩游戏的人有这么多啊”，那时我自己也有这样很强烈地感受。
 
 ##### 岩田
-所以说，全力以赴致力于Family Computer 20周年和之后的超级马力欧20周年<sup>[※19](#ref-19)</sup>这两件事对我们自己来说，是十分有意义的事。
+所以说，全力以赴致力于Famicom 20周年和之后的超级马力欧20周年<sup>[※19](#ref-19)</sup>这两件事对我们自己来说，是十分有意义的事。
 
-> ※17　Family Computer 20周年：Family Computer发售20年后的2003年进行的活动。赠送[Family Computer诞生20周年 Game Boy Advance SP](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide006.jpg?width=400&height=299){: .figure-link }”等的计划。
+> ※17　Famicom 20周年：Famicom发售20年后的2003年进行的活动。赠送[Famicom诞生20周年 Game Boy Advance SP](https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/slide006.jpg?width=400&height=299){: .figure-link }”等的计划。
 > {: #ref-17 }
-> ※18　Famicom Mini：在Game Boy Advance平台发售的Family Computer游戏复刻版系列。在2004年2月有第1弹，同年5月有第2弹，同年8月还出现了软盘系统合辑，总共发售了30部游戏。
+> ※18　Famicom Mini：在Game Boy Advance平台发售的Famicom游戏复刻版系列。在2004年2月有第1弹，同年5月有第2弹，同年8月还出现了软盘系统合辑，总共发售了30部游戏。
 > {: #ref-18 }
 > ※19　超级马力欧20周年：《超级马力欧兄弟》发售20年后的2005年时举行的活动。除了再发售Famicom Mini《超级马力欧兄弟》之外， 9月13日纪念日也发售了《Game Boy Micro》。
 > {: #ref-19 }
@@ -805,7 +811,7 @@ title: 社长提问《New 超级马力欧兄弟 Wii》
 ##### 宫本
 突破难关之后，按下暂停键，可以切换成玩家自己。玩家虽然是用路易吉，但跳跃力<sup>[※21](#ref-21)</sup>是一样的。
 
-> ※21　跳跃力：在Family Computer的软盘系统发售的《超级马力欧兄弟2》（1986年6月）中，路易吉的跳跃力是比马力欧还要高，但是这次的作品中设定为是同等级。
+> ※21　跳跃力：在Famicom的软盘系统发售的《超级马力欧兄弟2》（1986年6月）中，路易吉的跳跃力是比马力欧还要高，但是这次的作品中设定为是同等级。
 > {: #ref-21 }
 
 ##### 岩田
@@ -1076,7 +1082,7 @@ Mario Club中有很多人是想要争取完美胜利的人，这一次，可以�
 对啊。
 
 ##### 宫本
-那个是做Family Computer的时候订下的规则。Family Computer的时候是，水中和地上是不同的关卡。然而这一次是，地上和水中变成同一套。所以，在空中飞的火球原封不动的状态下，进到水中的话，在自然界的景色看来，实在很奇怪吧。我们觉得很纳闷“到底这团火是用什么做出来的呢？”
+那个是做Famicom的时候订下的规则。Famicom的时候是，水中和地上是不同的关卡。然而这一次是，地上和水中变成同一套。所以，在空中飞的火球原封不动的状态下，进到水中的话，在自然界的景色看来，实在很奇怪吧。我们觉得很纳闷“到底这团火是用什么做出来的呢？”
 
 ##### 岩田
 （笑）
@@ -1185,7 +1191,7 @@ Mario Club中有很多人是想要争取完美胜利的人，这一次，可以�
 你说来轻松，但它是一个很大的挑战吧。
 
 ##### 宫本
-和DS版一様，我的目标是Wii版的《New 超级马力欧兄弟》，在发售1年后还是卖得很好。因为我们还是希望它变成稳定的固定商品，所以我们花了很多精神。
+和DS版一样，我的目标是Wii版的《New 超级马力欧兄弟》，在发售1年后还是卖得很好。因为我们还是希望它变成稳定的固定商品，所以我们花了很多精神。
 
 ##### 岩田
 1年后还是能够继续贩卖的东西，和1年后无法继续贩卖的商品，有什么不一样的地方呢？
@@ -1444,7 +1450,7 @@ Mario Club中有很多人是想要争取完美胜利的人，这一次，可以�
 这一次是横向拿Wii遥控器，只要十字按键和1，2按键就可以玩了。
 
 ##### 岩田
-Family Computer时代的操作吧。
+Famicom时代的操作吧。
 
 ##### 宫本
 只是，请要记得用B冲<sup>[※27](#ref-27)</sup>。如果不会B冲的话，会很辛苦。一直按住B，去拿东西，接着还是B冲。而且也加进，只有Wii遥控器才有的特别的挥动操作。所以，学会挥动和B的话，可以玩得很起劲。
@@ -1459,3 +1465,5 @@ Family Computer时代的操作吧。
 还是叫B冲吧（笑）。
 
 {% include figure.html src="https://www.nintendo.co.jp/wii/interview/smnj/vol1/img/photo21.jpg" width="250" height="150" %}
+
+{% include subnav.html links="/wii/smnj.html,其一|/wii/smnj_02.html,其二|/wii/smnj_03.html,其三,disabled" %}

@@ -1,7 +1,5 @@
 "use strict";
 $(function () {
-  window.pageInfo = window.pageInfo || {};
-
   /* 目录 */
   $(".ni-sidenav-list").on("click", function(e) {
     let target = e.target;

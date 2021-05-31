@@ -44,16 +44,16 @@
   width: 30px;
   height: 30px;
   vertical-align: middle;
-  fill: #888;
+  fill: @gray;
 
   .active &, a:hover &, a:focus & {
-    fill: #e60012;
+    fill: @color-warm;
   }
 }
 
 @media screen and (max-width: (@screen-xs-min - 1)) {
   .ni-navbar-item {
-    width: 33%;
+    width: 25%;
   }
 }
 
@@ -85,5 +85,11 @@
   .navbar-brand {
     height: @line-height-computed + @navbar-padding-vertical * 2 + 30px;
     line-height: @line-height-computed + 30px;
+  }
+}
+
+@media screen and (min-width: @screen-md-min) {
+  .navbar-nav > .ni-navbar-item > a {
+    line-height: 0;
   }
 }

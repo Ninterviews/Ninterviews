@@ -9,7 +9,7 @@ interviewees:
 - Dylan Cuthbert
 - 宫本茂
 - 岩田聪
-last_modified_at: 2021-05-30 21:25
+last_modified_at: 2021-05-31 21:39
 license: official
 links: 
 - - https://www.nintendo.co.jp/3ds/anrj/index.html
@@ -22,6 +22,12 @@ sources:
   - 社長が訊く『スターフォックス６４ ３Ｄ』
 title: 社长提问《星际火狐64 3D》
 ---
+- **高野充浩**（<span lang="ja">高野　充浩</span>）：任天堂情报开发本部 制作部。
+- **天野裕介**（<span lang="ja">天野　裕介</span>）：任天堂情报开发本部 制作部。
+- **Dylan Cuthbert**（<span lang="ja">ディラン・カスバード</span>）：有限会社Q-Games代表取缔役。
+- **宫本茂**（<span lang="ja">宮本　茂</span>）：任天堂专务取缔役 情报开发本部长。
+- **岩田聪**（<span lang="ja">岩田　聡</span>）：任天堂取缔役社长。
+
 ### 1. “希望在京都工作”
 ##### 岩田
 今天请多多指教。

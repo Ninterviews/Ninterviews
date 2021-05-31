@@ -6,6 +6,7 @@ _site/
 
 # Visual Studio Code
 .vscode
+*.code-workspace
 
 # Bundler
 .bundle/
@@ -17,5 +18,6 @@ node_modules/
 # Ossutil
 ossutil64
 
-# Debug
+# Draft
 Debug/
+*.draft.md
