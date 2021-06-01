@@ -75,7 +75,15 @@ $(function () {
     }));
 
     search.start();
-  })
+
+    $(".ais-SearchBox-reset").on("click", function (e) {
+      if (!$(".ais-SearchBox-input").val()) {
+        $(".ni-navbar-item-search > a").trigger("click");
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    });
+  });
 
   /* 返回页面顶端 */
   $(".ni-navtop").on("click", function(e) {
