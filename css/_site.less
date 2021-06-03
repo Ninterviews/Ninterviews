@@ -5,7 +5,7 @@
 @font-size-h1: floor((@font-size-base * 2)); // ~30px
 @font-size-h2: floor((@font-size-base * 1.6)); // ~34px
 @font-size-h3: ceil((@font-size-base * 1.45)); // ~22px
-@font-size-h4: ceil((@font-size-base * 1.2)); // ~18px
+@font-size-h4: inherit;
 @font-size-h5: inherit;
 @headings-font-weight: 700;
 @headings-line-height: @line-height-base;
@@ -31,6 +31,7 @@ body {
 /* 块级元素 */
 article {
   font-size: 18px;
+  text-align: justify;
 }
 
 blockquote {
@@ -41,17 +42,17 @@ blockquote {
   }
 }
 
-h2 {
+h2, .h2 {
   text-align: center;
 }
 
-h3 {
+h3, .h3 {
   padding: 15px 20px;
   border-left: 4px solid #bbb;
   background-color: #f2f2f2;
 }
 
-h5 {
+h4, .h4, h5, .h5, .border-left {
   padding-left: ~'calc(1em - 5px)';
   border-left: 5px solid #bbb;
 }

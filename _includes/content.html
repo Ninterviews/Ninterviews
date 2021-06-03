@@ -2,15 +2,19 @@
       <div class="row">
         <div class="ni-content-main col-sm-{% if page.no_sidenav %}12{% else %}9{% endif %}">
           <div class="ni-heading">{% unless page.no_date %}
-            <div class="ni-heading-date">{{ page.date | date: "%Y" }}.{{ page.date | date: "%m" | plus: 0 }}.{{ page.date | date: "%d" | plus: 0 }}</div>{% endunless %}
+            <div class="ni-heading-date">{{ page.date | date: "%Y.%m.%d" | replace: ".0", "." }}</div>{% endunless %}
             <h1>{{ page.title | default: site.name }}</h1>
           </div>{% if page.image != site.default_image %}
 {% include figure.html blank="          " src=page.image alt=page.title width=page.image_width height=page.image_height no_link=true class="ni-content-image" %}{% endif %}
           <article>{% capture LINE_BREAK %}
-{% endcapture %}{% capture LINE_BREAK_INDENT %}
+{% endcapture %}{% capture DOUBLE_LINE_BREAK %}{{ LINE_BREAK }}{{ LINE_BREAK }}{% endcapture %}{% capture LINE_BREAK_INDENT %}
             {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
-            {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
-          </article>{% if page.sources or page.references or page.links or page.logs %}
+            {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: DOUBLE_LINE_BREAK, LINE_BREAK | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
+          </article>{% if page.author %}
+          <div class="ni-author">
+            <div class="ni-author-text">{% if site.data.authors[page.author] %}{{ site.data.authors[page.author].name }}{% else %}{{ page.author }}{% endif %}</div>
+            <div class="ni-author-image">{{ site.data.authors[page.author].no_image }}{% if site.data.authors[page.author] %}{% unless site.data.authors[page.author].no_image  %}{% capture _url %}{{ site.image_cdn }}/authors/{{ page.author }}.png{% endcapture %}{% include image.html src=_url width="50" height="50" %}{% endunless %}{% endif %}</div>
+          </div>{% endif %}{% if page.sources or page.references or page.links or page.logs %}
           <div class="ni-infobox-bottom">{%if page.sources %}
             <div class="ni-info-sources">
               <div class="ni-info-sources-head">源地址</div>

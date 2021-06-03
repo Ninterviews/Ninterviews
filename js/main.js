@@ -43,7 +43,7 @@ $(function () {
           title = hit._highlightResult.title.value,
           interviewees = (hit._highlightResult.interviewees || []).map(x => x.value),
           content = (hit._highlightResult.content || []).value;
-      
+
       let defineList = $("<dl/>").addClass("ni-search-list-item"),
           defineTitle = $("<dt/>").addClass("ni-search-list-title").append($("<a/>").attr({
             "href": url
