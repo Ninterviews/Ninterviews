@@ -58,6 +58,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - package-lock.json
+image_cdn: https://images.xzonn.top
 kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"

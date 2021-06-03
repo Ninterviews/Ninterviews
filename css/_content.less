@@ -52,12 +52,17 @@
   }
 }
 
+article::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 @media screen and (min-width: @screen-md-min) {
   .ni-content-main:not(:only-child) {
     border-right: 1px solid #d9d9d9;
   }
 }
-
 
 /* links */
 .ni-infobox-bottom {

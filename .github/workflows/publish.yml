@@ -37,9 +37,19 @@ jobs:
       env:
         ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       continue-on-error: true
-    - name: Config Ossutil
+    - name: Cache Ossutil
+      id: cache-ossutil
+      uses: actions/cache@v2
+      with:
+        path: ossutil64
+        key: ${{ runner.os }}-ossutil64
+      continue-on-error: true
+    - name: Get Ossutil
+      if: steps.cache-ossutil.outputs.cache-hit != 'true'
       run: |
         wget -q http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64
+    - name: Config Ossutil
+      run: |
         chmod +x ossutil64
         ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
     - name: Publish Site

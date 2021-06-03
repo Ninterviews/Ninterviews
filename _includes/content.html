@@ -8,8 +8,8 @@
 {% include figure.html blank="          " src=page.image alt=page.title width=page.image_width height=page.image_height no_link=true class="ni-content-image" %}{% endif %}
           <article>{% capture LINE_BREAK %}
 {% endcapture %}{% capture LINE_BREAK_INDENT %}
-            {% endcapture %}
-            {{ content | replace: LINE_BREAK, LINE_BREAK_INDENT | replace: '<a href="http', '<a target="_blank" href="http' }}
+            {% endcapture %}{% assign _content = content | strip | replace: '<a href="http', '<a target="_blank" href="http' %}
+            {% assign _splited_pres = _content | split: "<pre " %}{% for _pre in _splited_pres %}{% if forloop.first %}{{ _pre | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% else %}<pre {% assign _splited_part = _pre | split: "</pre>" %}{{ _splited_part[0] }}</pre>{{ _splited_part[1] | replace: LINE_BREAK, LINE_BREAK_INDENT }}{% endif %}{% endfor %}
           </article>{% if page.sources or page.references or page.links or page.logs %}
           <div class="ni-infobox-bottom">{%if page.sources %}
             <div class="ni-info-sources">
