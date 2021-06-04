@@ -1,10 +1,12 @@
     {% assign _excerpt = page.content | split: "<p>" %}{% assign _excerpt = _excerpt[1] | split: "</p>" %}{% assign _excerpt = _excerpt[0] | strip_html -%}
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="keywords" content="任天堂,开发者访谈,采访{% if page.game %},{{ page.game }}{% endif %}{% if page.interviewees %},{{ page.interviewees | join: "," }}{% endif %}">
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="keywords" content="任天堂,开发者访谈,采访{% if page.game %},{{ page.game }}{% endif %}{% if page.interviewees %},{{ page.interviewees | join: "," }}{% endif %}"/>
     <meta name="referrer" content="same-origin"/>
-    <link rel="icon" href="/images/favicon.svg">
+    <link rel="shortcut icon" href="/images/favicon.svg"/>
+    <link rel="alternate shortcut icon" href="/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/images/favicon.png"/>
     <title>{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.name }}</title>
     <!-- ogp -->
     <meta property="og:title" content="{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.name }}">
@@ -16,8 +18,8 @@
     <!-- //ogp -->
     <!-- twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@nintendo">
-    <meta name="twitter:creator" content="@nintendo">
+    <meta name="twitter:site" content="@ninterviews">
+    <meta name="twitter:creator" content="@xzonn2000">
     <meta name="twitter:title" content="{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.name }}">
     <meta name="twitter:description" content="{{ page.description | default: _excerpt }}">
     <meta name="twitter:image:src" content="{{ page.image }}">
