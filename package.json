@@ -1,7 +1,7 @@
 {
   "name": "ninterviews",
   "version": "0.0.1",
-  "description": "no description",
+  "description": "任天堂开发者访谈保存计划",
   "main": "index.html",
   "dependencies": {
     "less": "^4.1.1",

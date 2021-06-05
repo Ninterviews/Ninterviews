@@ -7,7 +7,7 @@ image_width: 1000
 interviewees: 
 - 坂本贺勇
 - 浅田诚
-last_modified_at: 2021-06-03 17:52
+last_modified_at: 2021-06-04 19:01
 links: 
 - - https://www.nintendo.co.jp/switch/aw3ca/index.html
   - 《Famicom侦探俱乐部 消失的继承人·站在身后的少女》官网

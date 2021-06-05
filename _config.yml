@@ -58,6 +58,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - package-lock.json
+  - "*.less"
 image_cdn: https://images.xzonn.top/ninterviews
 kramdown:
   syntax_highlighter_opts:

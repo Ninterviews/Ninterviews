@@ -122,7 +122,10 @@ u {
   border-left: none;
   position: relative;
   padding-left: 2.5em;
-  margin-top: 60px;
+
+  &:not(h2 + .question, h3 + .question, h4 + .question) {
+    margin-top: 60px;
+  }
 }
 
 .question::before {
@@ -131,7 +134,7 @@ u {
   left: 0;
   display: block;
   width: 2em;
-  content: '——';
+  content: '\2014\2014';
 }
 
 .border-blue {
