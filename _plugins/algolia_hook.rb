@@ -5,6 +5,8 @@ module Jekyll
         record.delete :anchor
         record.delete :categories
         record.delete :headings
+        record.delete :excerpt_html
+        record.delete :excerpt_text
         record.delete :image_width
         record.delete :image_height
         record.delete :html

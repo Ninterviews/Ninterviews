@@ -1,3 +1,3 @@
 <ul class="nav nav-pills nav-justified">{% assign links = include.links | split: "|" %}{% for link in links %}{% assign _link = link | split: "," %}
-  <li{% if page.url == _link[0] %} class="active"><a href="javascript:void"{% else %}{% if _link[2] %} class="{{ _link[2] }}"{% endif %}><a href="{{ _link[0] }}"{% endif %}>{{ _link[1] }}</a></li>{% endfor %}
+  <li{% if page.url == _link[0] %} class="active"><a href="javascript:void"{% else %}{% if _link[2] %} class="{{ _link[2] }}"{% endif %}><a href="{{ _link[0] | relative_url }}"{% endif %}>{{ _link[1] }}</a></li>{% endfor %}
 </ul>

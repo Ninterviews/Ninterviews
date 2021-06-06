@@ -25,7 +25,7 @@ jobs:
         npm install
     - name: Less
       run: |
-        ./node_modules/less/bin/lessc -x css/_base.less css/base.css
+        ./node_modules/less/bin/lessc -x assets/css/_base.less assets/css/base.css
     - name: Build Site
       run: |
         bundle exec jekyll build --trace --profile
@@ -42,7 +42,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ossutil64
-        key: ${{ runner.os }}-ossutil64
+        key: ${{ runner.os }}-ossutil64-1.7.3
       continue-on-error: true
     - name: Get Ossutil
       if: steps.cache-ossutil.outputs.cache-hit != 'true'

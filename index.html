@@ -7,7 +7,7 @@ no_sidenav: true
   <div>
     <div>{{ category[1].name }}</div>
     <ul>{% assign _docs = collection.docs | reverse %}{% for interview in _docs %}{% unless interview.no_date or interview.no_index %}
-      <li><a href="{{ interview.url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y.%m.%d" | replace: ".0", "." }}]</li>{% endunless %}{% endfor %}
+      <li><a href="{{ interview.url | relative_url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y.%m.%d" | replace: ".0", "." }}]</li>{% endunless %}{% endfor %}
     </ul>
   </div>{% endfor %}
 </div>

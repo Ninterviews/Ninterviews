@@ -5,6 +5,7 @@ algolia:
     - index.html
     - index.md
     - pages/**/index.*
+  nodes_to_index: "p,h2,h3,h4"
   settings:
     searchableAttributes:
       - title
@@ -12,7 +13,6 @@ algolia:
       - unordered(interviewees)
     attributesToHighlight:
       - content
-      - html
       - interviewees
       - tags
       - title
