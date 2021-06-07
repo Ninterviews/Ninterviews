@@ -2,7 +2,7 @@
       <div class="row">
         <div class="ni-content-main col-sm-{% if page.no_sidenav %}12{% else %}9{% endif %}">
           <div class="ni-heading">{% unless page.no_date %}
-            <div class="ni-heading-date">{{ page.date | date: "%Y.%m.%d" | replace: ".0", "." }}</div>{% endunless %}
+            <div class="ni-heading-date">{{ page.date | date: "%Y.%-m.%-d" }}</div>{% endunless %}
             <h1>{{ page.title | default: site.name }}</h1>
           </div>{% if page.image != site.default_image %}
 {% include figure.html blank="          " src=page.image alt=page.title width=page.image_width height=page.image_height no_link=true class="ni-content-image" %}{% endif %}
