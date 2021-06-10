@@ -10,7 +10,7 @@ interviewees:
 - 佐藤贤太
 - 宫本茂
 - 岩田聪
-last_modified_at: 2021-06-07 14:58
+last_modified_at: 2021-06-09 22:36
 license: official
 links: 
 - - https://www.nintendo.co.jp/wii/rztj/index.html
@@ -51,7 +51,7 @@ title: 社长提问《Wii Sports Resort》
 
 > ※2　“慢跑”：《Wii Fit》中的运动训练项目。玩家可以把Wii遥控器拿在手中，或放在口袋里跑步。
 > {: #ref-2 }
-> {% include image.html src="https://www.nintendo.co.jp/wii/interview/rztj/vol1/img/photo24.jpg" width="150" height="84" %}
+> {% include image.html src="https://www.nintendo.co.jp/wii/interview/rztj/vol1/img/photo31.jpg" width="150" height="84" %}
 
 ##### 岩田
 原来那也是佐藤先生设计的啊。好，那么接下来请堂田先生自我介绍一下。

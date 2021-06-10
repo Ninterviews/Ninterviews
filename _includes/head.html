@@ -28,7 +28,7 @@
     <!-- localstorage -->
     <style id="ni-local-storage-style"></style>
     <script>
-      window.niLocalStorage = window.localStorage.getItem("niLocalStorage") || {};
+      window.niLocalStorage = JSON.parse(localStorage.getItem("niLocalStorage") || "{}") || {};
       (function () {
         let style = document.getElementById("ni-local-storage-style"),
             sheet = style.sheet;
@@ -36,6 +36,9 @@
           sheet.insertRule(".bilibili-video { display: none !important; }");
         } else {
           sheet.insertRule(".youtube-video { display: none !important; }");
+        }
+        if (niLocalStorage.han) {
+          sheet.insertRule("h-hws:not(.quote-inner, .quote-outer), h-hws[hidden]:not(.quote-inner, .quote-outer) { display: inline; user-select: none; letter-spacing: -0.15em; }");
         }
       })();
     </script>
@@ -51,5 +54,8 @@
     <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.9.1/dist/algoliasearch-lite.umd.js" integrity="sha256-nsOZ0hN8nehDzx3JBvvEM0RrxgDhZVihR8EI+hYxnh8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.23.0/dist/instantsearch.production.min.js" integrity="sha256-fPLX/8w//tDOmglZ4fvLgbhKvMsqV5uaVpFB4T1mA9Q=" crossorigin="anonymous"></script>
     <!-- //algolia -->
+    <!-- han -->
+    <script src="https://cdn.jsdelivr.net/gh/Xzonn/xzonn.github.io@v3.1/js/han.min.js" integrity="sha256-52cHKfM4dS8P+GSs5jOCtxP9BdSD3jzl2T3WCbDmiXc=" async="async" crossorigin="anonymous" onload="Han(document.body).render()"></script>
+    <!-- //han -->
     <!-- other -->
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
