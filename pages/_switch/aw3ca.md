@@ -7,7 +7,7 @@ image_width: 1000
 interviewees: 
 - 坂本贺勇
 - 浅田诚
-last_modified_at: 2021-06-04 19:01
+last_modified_at: 2021-06-12 10:28
 links: 
 - - https://www.nintendo.co.jp/switch/aw3ca/index.html
   - 《Famicom侦探俱乐部 消失的继承人·站在身后的少女》官网
@@ -41,7 +41,7 @@ title: 《Famicom侦探俱乐部 消失的继承人·站在身后的少女》开
 \- 任天堂 坂本贺勇 -
 {: .text-right }
 
-{% include image.html src="Sakamoto_Yoshio.gif" width="150" height="125" %}
+{% include image.html src="Sakamoto_Yoshio.png" width="150" height="125" %}
 {: .text-right }
 
 ### 浅田诚
@@ -65,6 +65,8 @@ title: 《Famicom侦探俱乐部 消失的继承人·站在身后的少女》开
 
 在开发初期，坂本先生答应协助监修，我有幸在京都与他进行了洽谈。我已经不记得是第几次洽谈了（汗）。我因为开发而有些烦恼……该怎么办呢——我一边这样想，一遍像小鹿一样惴惴不安地在会议室里等待坂本先生。这时候，坂本先生带着当时的开发伙伴出现在了会议室。我听到了坂本先生的介绍，左边这位负责了原作的编剧，右边这位负责了原作的声音。我的大脑里回想着“《Famicom侦探俱乐部》的制作人员来了————！！”
 
+{% include figure.html src="2-1.png" alt="原作战士<br>Fami侦" width="400" height="312.5" %}
+
 我这种“来了————！！”的感觉，虽然说起来有些不太好，但是当时的编剧来了=可以重新构筑剧本，当时的声音负责人来了=可以监修编曲。我大脑中的思考已经清一色地进入了万事解决模式……从这里开始对话一点点按照节奏进行着……可以说就是按照我的脑内计划来的（笑）。以坂本先生为中心的任天堂公司方面也审阅了剧本，接受了重写的工作，开始进行修改剧本。
 
 虽然这么说，但实际上并没有进行大幅度的变更。因为需要用图像来表现，因此与不需要的台词、或是反过来必须要追加的内容相关的剧本工作成为了中心。更加让我们感到幸运的是，为了能够调整剧本，增加图像的表现力，任天堂公司的设计师们也参与了协助监修的工作。
@@ -83,5 +85,7 @@ MAGES.《Famicom侦探俱乐部》开发团队代表
 浅田诚
 {: .text-right }
 
-{% include image.html src="Asada_Makoto.gif" width="150" height="57.5" %}
+{% include image.html src="Asada_Makoto.png" width="150" height="60" %}
 {: .text-right }
+
+{% include figure.html src="2-2.png" alt="主角：好吃的东西……就只是拉面吗——<br>步美：啊啦，不好吃吗♡<br>空木：不够还可以再加哦——" width="400" height="202.5" %}

@@ -1,5 +1,5 @@
 {{ include.blank }}<figure{% if include.class %} class="{{ include.class }}"{% endif %}>
 {{ include.blank }}  {% include image.html class="figure-image" src=include.src alt=include.alt width=include.width height=include.height %}{% unless include.no_link %}
-{{ include.blank }}  <a class="figure-link" target="_blank" href="{{ include.src }}"></a>{% endunless %}{% if include.alt %}
+{{ include.blank }}  <a class="figure-link" target="_blank" href="{{ _src | default: include.src }}"></a>{% endunless %}{% if include.alt %}
 {{ include.blank }}  <figcaption class="caption-figure" id="figure-{% assign src_array = include.src | split: "/" %}{{ src_array.last}}">{{ include.alt }}</figcaption>{% endif %}
 {{ include.blank }}</figure>
