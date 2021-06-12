@@ -1,6 +1,6 @@
 ---
 date: 2021-05-27
-last_modified_at: 2021-05-30 15:21
+last_modified_at: 2021-06-12 15:10
 no_sidenav: true
 permalink: /about.html
 title: 关于本计划
@@ -24,3 +24,9 @@ Xzonn
 
 2021年5月27日
 {: .text-right }
+
+<!--
+  构建时间：{{ "now" | date: "%F %T %Z" }}
+  环境：{{ jekyll.environment }}
+  提交ID：{{ site.github.build_revision | slice: 0, 6 }}
+-->

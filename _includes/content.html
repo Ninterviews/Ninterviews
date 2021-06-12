@@ -13,7 +13,7 @@
           </article>{% if page.author %}
           <div class="ni-author">
             <div class="ni-author-text">{% if site.data.authors[page.author] %}{{ site.data.authors[page.author].name }}{% else %}{{ page.author }}{% endif %}</div>
-            <div class="ni-author-image">{{ site.data.authors[page.author].no_image }}{% if site.data.authors[page.author] %}{% unless site.data.authors[page.author].no_image  %}{% capture _url %}{{ site.image_cdn }}/authors/{{ page.author }}.png{% endcapture %}{% include image.html src=_url width="50" height="50" %}{% endunless %}{% endif %}</div>
+            <div class="ni-author-image">{% if site.data.authors[page.author] %}{% unless site.data.authors[page.author].no_image  %}{% capture _url %}{{ site.image_cdn }}/authors/{{ page.author }}.png{% endcapture %}{% include image.html src=_url width="50" height="50" %}{% endunless %}{% endif %}</div>
           </div>{% endif %}{% if page.sources or page.references or page.links or page.logs %}
           <div class="ni-infobox-bottom">{%if page.sources %}
             <div class="ni-info-sources">
