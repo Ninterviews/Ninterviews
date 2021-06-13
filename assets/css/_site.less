@@ -57,6 +57,12 @@ h4, .h4, h5, .h5, .border-left {
   border-left: 5px solid #bbb;
 }
 
+@media print {
+  blockquote {
+    border-color: transparent;
+  }
+}
+
 /* 图片 */
 figure {
   position: relative;
@@ -123,7 +129,7 @@ u {
   position: relative;
   padding-left: 2.5em;
 
-  &:not(.question + .question)::before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -132,8 +138,16 @@ u {
     content: '\2014\2014';
   }
 
-  &:not(h2 + .question, h3 + .question, h4 + .question, .question + .question) {
+  &:not(h2 + .question, h3 + .question, h4 + .question) {
     margin-top: 60px;
+  }
+
+  & + & {
+    margin-top: 0;
+
+    &::before {
+      content: normal;
+    }
   }
 }
 

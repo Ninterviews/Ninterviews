@@ -1,13 +1,13 @@
 ---
 author: Xzonn
 date: 2021-06-10
-image: https://nintendo.co.jp/interview/awuxa/img/hero_pc.jpg
+image: hero_pc.jpg
 image_height: 561
 image_width: 1520
 interviewees: 
 - 手岛宏介
 - 益田直生
-last_modified_at: 2021-06-12 18:44
+last_modified_at: 2021-06-12 23:25
 links: 
 - - https://www.nintendo.co.jp/switch/awuxa/index.html
   - 《附带导航！一做就上手 第一次的游戏程序设计》官网
@@ -193,7 +193,7 @@ Toy-Con车库VR是在大概了解了VR的Toy-Con的制作方式之后，由玩�
 ##### 益田
 如果能够理解小节点的作用并把他们组合起来的话，就已经可以制作出各种各样的游戏了。但是，不要被“必须要制作游戏”这样的固定观念束缚住，例如单纯在街道的风景中散步这样的程序也不错。
 
-##### 对了，我从刚才开始就很在意，那边的彩色卡片是什么?
+##### 对了，我从刚才开始就很在意，那边的彩色卡片是什么？
 {: .question }
 
 {% include figure.html src="https://www.nintendo.co.jp/interview/awuxa/img/2_1.jpg" width="640" height="335" %}
@@ -213,7 +213,7 @@ Toy-Con车库VR是在大概了解了VR的Toy-Con的制作方式之后，由玩�
 {: .question }
 
 ##### 手岛
-虽然“单纯是喜欢这样”的原因，但如果做成卡片的类型的话，就可以像这样重新排列。
+虽然也有“单纯是喜欢这样”的原因，但如果做成卡片的类型的话，就可以像这样重新排列。
 
 {% include figure.html src="https://www.nintendo.co.jp/interview/awuxa/img/05.jpg" width="640" height="360" %}
 
