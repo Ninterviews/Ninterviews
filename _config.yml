@@ -5,6 +5,7 @@ algolia:
     - index.html
     - index.md
     - pages/**/index.*
+    - logs.md
   nodes_to_index: "p,h2,h3,h4"
   settings:
     searchableAttributes:

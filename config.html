@@ -1,0 +1,48 @@
+---
+date: 2021-06-17 11:12
+last_modified_at: 2021-06-17 14:58
+no_date: true
+no_sidenav: true
+title: 参数设置
+---
+<form class="ni-config-form form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">视频来源</label>
+    <div class="col-sm-6">
+      <div>
+        <label class="radio-inline">
+          <input type="radio" name="ni-config-youtube" value="true"> YouTube
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="ni-config-youtube" value="false"> Bilibili
+        </label>
+      </div>
+    </div>
+    <div class="col-sm-4">
+{% include video.html blank="      " youtube="TUFuCZeNn4c" aid="74829690" page="2" %}
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">中英文混排</label>
+    <div class="col-sm-6">
+      <div>
+        <label class="radio-inline">
+          <input type="radio" name="ni-config-han" value="true"> 需要空格
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="ni-config-han" value="false"> 不需要空格
+        </label>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p>任天堂Nintendo一直致力于以“通过商品和服务给世人带来笑脸”的信念为根本，积极实施“扩大游戏人口”这个基本战略。</p>
+      <p>神游于2016年12月31日起终止神游机服务。</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-10 col-sm-offset-2">
+      <button class="ni-config-confirm btn btn-primary" type="submit">确认</button>
+    </div>
+  </div>
+</form>
+<script src="{% link assets/js/config.js %}"></script>

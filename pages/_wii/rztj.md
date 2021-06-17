@@ -10,7 +10,7 @@ interviewees:
 - 佐藤贤太
 - 宫本茂
 - 岩田聪
-last_modified_at: 2021-06-12 12:55
+last_modified_at: 2021-06-17 18:04
 license: official
 links: 
 - - https://www.nintendo.co.jp/wii/rztj/index.html
@@ -80,7 +80,7 @@ title: 社长提问《Wii Sports Resort》
 （笑）
 
 ##### 堂田
-还有我也在上次作品《Wii Sports》之后，一边做Wii软件的各种实验，然后一边帮忙《Wii Fit》和“Mario Kart Wii”的开发。
+还有我也在上次作品《Wii Sports》之后，一边做Wii软件的各种实验，然后一边帮忙《Wii Fit》和《马力欧卡丁车 Wii》的开发。
 
 ##### 岩田
 好。再来请岛村先生自我介绍一下。
@@ -290,7 +290,7 @@ title: 社长提问《Wii Sports Resort》
 就是啊。我从很久以前就一直说“来做一个梦幻岛屿吧”。我们在游戏作品《Wii Fit》中，就做了一个很大的岛。
 
 ##### 岩田
-就是那个“Wii Fit岛”吧！在《Wii Sports Resort》中出现的那个岛，跟《Wii Fit》的岛是一样的吧?
+就是那个“Wii Fit岛”吧！在《Wii Sports Resort》中出现的那个岛，跟《Wii Fit》的岛是一样的吧？
 
 ##### 宫本
 对。我们把它取名为“[乌富岛](https://www.nintendo.co.jp/wii/interview/rztj/vol1/img/slide001.jpg?width=400&height=225)”。两个岛的样子大致是一样的。但是对这个岛，我们想要好好地修饰它，让整个岛成为一座度假休闲的岛屿。然后再把舞台变成角色。以后还想陆陆续续推出岛屿度假胜地的系列作品呢！

@@ -1,5 +1,6 @@
 /* 覆盖原有变量 */
 @font-size-base: 15px;
+@font-size-small: 12px;
 @line-height-base: 2;
 
 @font-size-h1: floor((@font-size-base * 2)); // ~30px
@@ -91,6 +92,11 @@ figure {
   }
 }
 
+.figure-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* 行内元素 */
 article {
   a[target="_blank"] {
@@ -129,7 +135,7 @@ u {
   position: relative;
   padding-left: 2.5em;
 
-  &::before {
+  &:not(h5 + .question)::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -138,16 +144,8 @@ u {
     content: '\2014\2014';
   }
 
-  &:not(h2 + .question, h3 + .question, h4 + .question) {
+  &:not(h2 + .question, h3 + .question, h4 + .question, h5 + .question) {
     margin-top: 60px;
-  }
-
-  & + & {
-    margin-top: 0;
-
-    &::before {
-      content: normal;
-    }
   }
 }
 
@@ -169,6 +167,13 @@ u {
 
 .border-red {
   border-color: #e60012;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: relative;
 }
 
 /* 视频 */
