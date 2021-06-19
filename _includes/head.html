@@ -14,7 +14,8 @@
     <meta property="og:type" content="article">
     <meta property="og:description" content="{{ page.description | default: _excerpt }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ page.image }}">
+    {%- capture _page_image %}{% assign _splited_src = page.image | split: "/" %}{% if _splited_src.size == 1 %}{% assign _splited_url = page.url | split: "." %}{{ site.image_cdn }}{{ _splited_url[0] }}/{% endif %}{{ page.image }}{% endcapture %}
+    <meta property="og:image" content="{{ _page_image }}">
     <meta property="og:site_name" content="{{ site.name }}">
     <!-- //ogp -->
     <!-- twitter -->
@@ -23,7 +24,7 @@
     <meta name="twitter:creator" content="@xzonn2000">
     <meta name="twitter:title" content="{% if page.title and page.title != "" %}{{ page.title }} - {% endif %}{{ site.name }}">
     <meta name="twitter:description" content="{{ page.description | default: _excerpt }}">
-    <meta name="twitter:image:src" content="{{ page.image }}">
+    <meta name="twitter:image:src" content="{{ _page_image }}">
     <!-- //twitter -->
     <!-- localstorage -->
     <style id="ni-local-storage-style"></style>
@@ -50,9 +51,5 @@
     <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <!-- //bootstrap -->
-    <!-- algolia -->
-    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.9.1/dist/algoliasearch-lite.umd.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.23.0/dist/instantsearch.production.min.js" crossorigin="anonymous"></script>
-    <!-- //algolia -->
     <!-- other -->
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>

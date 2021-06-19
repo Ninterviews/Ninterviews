@@ -2,10 +2,12 @@ algolia:
   application_id: "TN8HK9FU3W"
   index_name: "ninterviews"
   files_to_exclude:
+    - config.html
     - index.html
     - index.md
-    - pages/**/index.*
     - logs.md
+    - pages/**/index.*
+    - search.html
   nodes_to_index: "p,h2,h3,h4"
   settings:
     searchableAttributes:
@@ -60,6 +62,7 @@ exclude:
   - package.json
   - package-lock.json
   - "*.less"
+  - "*.psd"
 image_cdn: https://images.xzonn.top/ninterviews
 kramdown:
   syntax_highlighter_opts:

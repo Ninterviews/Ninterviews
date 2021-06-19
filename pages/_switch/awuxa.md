@@ -201,7 +201,7 @@ Toy-Con车库VR是在大概了解了VR的Toy-Con的制作方式之后，由玩�
 ##### 益田
 这是实体版附赠的“小节点回顾卡片”（<span lang="ja">ノードンふりかえりカード</span>），每一张都是一种不同的小节点，正面是小节点的样子，反面是功能说明和使用方法的提示，以及登场的课堂。
 
-{% include figure.html src="https://www.nintendo.co.jp/interview/awuxa/img/04.png" width="620" height="400" %}
+{% include figure.html src="04.png" width="620" height="400" %}
 
 ##### 在附带导航的课堂结束后，可以使用这张卡片回顾课堂内容，是这样吧。
 {: .question }

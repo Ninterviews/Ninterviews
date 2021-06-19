@@ -6,7 +6,7 @@
         <nav class="ni-navbar">
           <ul class="nav navbar-nav navbar-right">{% for category in site.data.categories %}
             <li class="ni-navbar-item ni-navbar-item-{{ category[0] }}{% if page.collection == category[0] %} active{% endif %}"><a class="nav-link" href="{% capture _ %}/{{ category[0] }}/{% endcapture %}{{ _ | relative_url }}"><svg class="ni-navbar-icon"><use xlink:href="{{ "/assets/images/icons.svg" | relative_url }}#icon-{{ category[0] }}"></use></svg><span class="ni-navbar-text">{{ category[1].abbr }}</span></a></li>{% endfor %}
-            <li class="ni-navbar-item ni-navbar-item-search"><a class="nav-link" href="javascript:void"><svg class="ni-navbar-icon"><use xlink:href="{{ "/assets/images/icons.svg" | relative_url }}#icon-search"></use></svg><span class="ni-navbar-text">搜索</span></a></li>
+            <li class="ni-navbar-item ni-navbar-item-search"><a class="nav-link" href="{{ "/search.html" | relative_url }}"><svg class="ni-navbar-icon"><use xlink:href="{{ "/assets/images/icons.svg" | relative_url }}#icon-search"></use></svg><span class="ni-navbar-text">搜索</span></a></li>
           </ul>
         </nav>
       </div>
