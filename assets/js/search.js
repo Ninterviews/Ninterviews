@@ -17,8 +17,6 @@ $(function () {
         }).html(title)).appendTo(defineList),
         defineInterviewees = interviewees.length ? $("<dd/>").addClass("ni-search-list-interviewees").append($("<ul/>").addClass("list-inline").append(interviewees.map(x => $("<li/>").html(x)))).appendTo(defineList) : null,
         defineContent = $("<dd/>").addClass("ni-search-list-content").html(content).appendTo(defineList);
-    
-    Han(defineContent).render();
 
     return defineList[0].outerHTML;
   }
