@@ -1,10 +1,12 @@
 ---
 date: 2021-06-17 10:56
-last_modified_at: 2021-06-17 18:08
+last_modified_at: 2021-07-05 18:29
 no_date: true
 no_sidenav: true
 title: 更新日志
 ---
+- 2021-07-03：
+  - [与川岛教授和开发团队的访谈，Switch的“脑锻炼”。]({% link _switch/as3ma.md %})翻译完成。
 - 2021-06-17：
   - 增加了[参数设置]({% link config.html %})页面。
 - 2021-06-12：
