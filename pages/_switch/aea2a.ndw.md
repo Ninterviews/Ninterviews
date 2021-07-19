@@ -10,7 +10,7 @@ interviewees:
 - 渡边惠未
 - 蛭子悦延
 - 山本真裕
-last_modified_at: 2021-07-17 19:49
+last_modified_at: 2021-07-19 23:38
 links: 
 - - https://www.nintendo.co.jp/switch/aea2a/index.html
   - 《耀西的手工世界》官网
@@ -26,9 +26,9 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 首先从与本作相关的任天堂的各位，以及开发公司Good-Feel的2人的简介开始。（本文摘自《Nintendo DREAM》2019年5月号）
 
 - **手冢卓志**（<span lang="ja">手塚 卓志</span>）：任天堂执行董事。从很早以前就参与了《超级马力欧》系列、《塞尔达传说》系列的开发，也作为《耀西》系列之父为人所熟知。在本作也担任了制作人职务。
-- **松宫信雄**（<span lang="ja">松宮 信雄</span>）：任职于任天堂企划制作部。参与了《耀西的毛线世界》《Hey!皮克敏》等作品，在本作担任了助理制作人，在任天堂与Good-Feel之间协调。
+- **松宫信雄**（<span lang="ja">松宮 信雄</span>）：任职于任天堂企划制作部。参与了《耀西的毛线世界》《Hey!皮克敏》等作品，在本作担任了副制作人，在任天堂与Good-Feel之间协调。
 - **渡边惠未**（<span lang="ja">渡辺 恵未</span>）：任职于任天堂企划制作部。以协调者（<span lang="ja">コーディネーター</span>）的身份参与了《毛线卡比》《耀西的毛线世界》等作品，在本作担任了助理制作人。
-- **蛭子悦延**（<span lang="ja">蛭子 悦延</span>）：Godd-Feel代表董事、社长。Good-Feel制作负责人。在本作担任了Good-Feel方面（开发商）的制作人。
+- **蛭子悦延**（<span lang="ja">蛭子 悦延</span>）：Good-Feel代表董事、社长。Good-Feel制作负责人。在本作担任了Good-Feel方面（开发商）的制作人。
 - **山本真裕**（<span lang="ja">山本 真裕</span>）：任职于Good-Feel制作部。过去参与的作品包括DSiWare《立体隐藏画 童话寻踪记》、汽车导航联动软件《在车上DS》（<span lang="ja">クルマでDS</span>）等。
 
 ## 提到《耀西》系列，就是探索游戏和独特的动作
@@ -101,7 +101,7 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 ##### 手冢
 {: .border-red }
 
-嗯。并不是一开始的手就全部决定好了，而是花了一些时间一点点制作出了符合耀西风格的设计方案。因为耀西伸出舌头吃下东西，我就想能不能在吃完之后做点什么，于是就有了按下下键就能够产生蛋的想法。然后，有了蛋之后就可以扔出去了。不过，一边操作耀西一遍扔蛋是很难的。
+嗯。并不是一开始的时候就全部决定好了，而是花了一些时间一点点制作出了符合耀西风格的设计方案。因为耀西会伸出舌头吃下东西，我就想能不能在吃完之后做点什么，于是就有了按下下键就能够产生蛋的想法。然后，有了蛋之后就可以扔出去了。不过，一边操作耀西一边扔蛋是很难的。
 
 ##### 向自己所想的方向扔蛋意外地难啊。
 {: .question }
@@ -216,8 +216,6 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 ##### 山本
 {: .border-purple }
 
-ほかにもいくつかモチーフを考えたのですが、工作だったら『ヨッシー』の世界観にも合っていると思いましたし、総合的に考えてこのモチーフを選びました。
-
 我们还考虑了其他一些主题，如果是手工的话，应该就能够符合《耀西》的世界观，因此综合考虑之后选择了这个主题。
 
 ##### 也就是说外侧和内侧的这种想法是从最初开始就有了对吧。
@@ -238,7 +236,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 ##### 松宫
 {: .border-orange }
 
-手工这个主题让我感到非常有魅力，而且我从最初开始就觉得外侧和反面的设计可以制作出有趣的事情。
+手工这个主题让我感到非常有魅力，而且我从最初开始就觉得外侧和内侧的设计可以制作出有趣的事情。
 
 ##### 手冢
 {: .border-red }
@@ -338,7 +336,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 是的。不过大家在玩的时候，即使没有注意到这些事也没关系。
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_18.jpg" alt="精心设计而成的各种各样的关卡……舞台是幼儿园!?" width="680" height="383" %}
+<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_18.jpg" alt="精心设计而成的各种各样的关卡……舞台是幼儿园!?" width="680" height="383" %}-->
 
 ##### 反过来说，Good-Feel的各位是带着这样的意识来制作游戏的吧。蛭子先生是不是也了解了这些设定呢？
 {: .question }
@@ -389,6 +387,52 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 <!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_19.jpg" alt="" width="461" height="321" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_20.jpg" alt="在游戏中，可以从内侧确认。在外侧是用点心盒制作成的指示牌！" width="461" height="339" %}-->
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_20.jpg" alt="在游戏中，可以从内侧确认。在外侧是用点心盒制作成的指示牌！" width="461" height="339" %}
+
+### 设定资料大公开
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_21.jpg" alt="幼儿园的设计图<br>在园子里有好几个房间。在室外的话可以看到庭院、后山、水池、大厅等。" width="680" height="615" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_22.jpg" alt="虽然不是设定画，但在背景里可以看到瓷砖。原来这里是洗手间！？" width="680" height="383" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_23.jpg" alt="水车<br>在牛奶盒上卷上胶带做成的。支撑它的是竹签和吸管。" width="431" height="415" %}
+
+### 各种各样的组件
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_24.jpg" alt="在木板上悬挂着圆形或方形的动态雕刻（<span lang=\"ja\">モビール</span>）。用瓦楞纸做出基本形状，在外表面贴上毛毡。脸是用毛线做的。" width="375" height="642" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_25.jpg" alt="用纸盘、厚纸做的不倒翁。左右摇晃看着别人……尾巴用胶带贴在了内侧。" width="369" height="576" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_26.jpg" alt="装饰在圆木或粗树枝上的小生物。" width="680" height="232" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_27.jpg" alt="以及在布景上画着的角色和小物件，以及椅子上像是门票一样的东西。" width="680" height="355" %}
+
+### 地形的设计
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_28_a.jpg" alt="房屋的屋顶用橡皮筋牵拉。" width="401" height="432" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_29.jpg" alt="红色液体的真面目是平底盘里装着的酱。有着像是草莓酱一样的颜色。支撑海绵的是棉花糖手工。真的像是点心一样！" width="466" height="297" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_30.jpg" alt="库拉夫顿<br>脸是折纸做成的气球，身体是点心盒，脚是塑料瓶瓶盖。脸是用马克笔画上去的，表情会变化。" width="401" height="614" %}
+
+{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_31.jpg" alt="耀西碰碰拳<br>用纸杯、有颜色的果冻杯等制作成的耀西手工。背上的杯子是空的，耀西坐了进来。胸部有一个猫眼。" width="680" height="280" %}-->
+
+### 巨大耀西登场！为了把手工的世界扩展成可以游玩的素材
+##### 山本
+{: .border-purple }
+
+“耀西碰碰拳”，是在验证了它的构造后制作的。我们还实际制作了一部分，来确认它的结构是否真的会动。
+
+##### 手冢
+{: .border-red }
+
+在《毛线世界》的时候是做手工艺吧？明明应该制作游戏，却做了些奇怪的工作啊（笑）。
+
+##### 一同
+（笑）
+
+##### 山本
+{: .border-purple }
+
+Good-Feel所在的大楼里，有一家很有名的手工艺用品店。如果有必要的话，设计师就会去那里买东西（笑）。
 
 （未完）
