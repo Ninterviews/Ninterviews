@@ -4,12 +4,12 @@ image: https://www.nintendo.com.hk/images/wii_interview_vol1_title.jpg
 image_height: 187
 image_width: 760
 interviewees: 
-- 太田敬三
-- 伊藤邦朗
-- 脇谷昇
-- 高本纯治
 - 岩田聪
-last_modified_at: 2021-06-17 18:00
+- 竹田玄洋
+- 高本纯治
+- 芦田健一郎
+- 盐田兴
+last_modified_at: 2021-10-08 13:42
 license: official
 links: 
 - - https://www.nintendo.co.jp/wii/index.html

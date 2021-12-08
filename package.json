@@ -4,8 +4,8 @@
   "description": "任天堂开发者访谈保存计划",
   "main": "index.html",
   "dependencies": {
-    "less": "^4.1.1",
-    "bootstrap": "^3.4.1"
+    "bootstrap": "^3.4.1",
+    "less": "^4.1.2"
   },
   "devDependencies": {},
   "scripts": {
