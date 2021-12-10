@@ -6,7 +6,7 @@ image_width: 1520
 interviewees: 
 - 盐田兴
 - 山下透
-last_modified_at: 2021-12-08 15:48
+last_modified_at: 2021-12-10 15:27
 links: 
 - - https://www.nintendo.co.jp/hardware/detail/switch-oled/index.html
   - Nintendo Switch（OLED款式）官网
@@ -18,7 +18,7 @@ sources:
   - "開発者に訊きました : Nintendo Switch（有機ELモデル）"
 title: 开发人员的访谈：Nintendo Switch（OLED款式）
 ---
-- **盐田兴**（<span lang="ja">塩田 興</span>）：任天堂董事、高级执行官、技术开发本部长
+- **盐田兴**（<span lang="ja">塩田 興</span>）：任天堂董事、高级执行官、技术开发本部长。
 - **山下透**（<span lang="ja">山下 透</span>）：任天堂技术开发部担当部长代理。
 
 ### 1. 游戏机注定要在发售后不断改良
@@ -451,7 +451,7 @@ OLED显示器本身在“Nintendo 3DS”<sup>[※7](#ref-7)</sup>时期就已经
 ##### 没想到还有这么细微的改变，真令人惊讶。每一项都是与使用便利性有关的重要改良呢。
 {: .question }
 
-### 4.持续致力于带来更好的游戏体验
+### 4. 持续致力于带来更好的游戏体验
 ##### 刚刚两位讲解了OLED款式“看得见的变化”和“看不见的变化”，是来自于2017年Nintendo Switch发售后，在游戏机独特的产品生命周期间，不断参考用户反馈与技术进步的结果。不过一开始有提到，各位也曾将测试过程中得来的改良想法，用于已发售的Nintendo Switch上。可以也请两位详细说明一下这部分吗？
 {: .question }
 
