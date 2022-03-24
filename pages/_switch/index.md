@@ -1,6 +1,6 @@
 ---
 date: 2021-05-26 23:15
-last_modified_at: 2021-05-28 23:32
+last_modified_at: 2022-03-24 22:35
 layout: category_index
 title: Nintendo Switch
 ---
@@ -12,3 +12,4 @@ Nintendo Switch家族包括：
 - Nintendo Switch，2017年3月3日发售。
   - Nintendo Switch（续航版），2019年8月发售。
 - Nintendo Switch Lite，2019年9月20日发售。
+- Nintendo Switch（OLED款式），2021年10月8日发售。

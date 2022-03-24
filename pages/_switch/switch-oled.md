@@ -6,7 +6,8 @@ image_width: 1520
 interviewees: 
 - 盐田兴
 - 山下透
-last_modified_at: 2021-12-10 15:27
+last_modified_at: 2022-03-24 22:41
+license: official
 links: 
 - - https://www.nintendo.co.jp/hardware/detail/switch-oled/index.html
   - Nintendo Switch（OLED款式）官网
