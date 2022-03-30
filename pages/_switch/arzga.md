@@ -11,7 +11,7 @@ interviewees:
 last_modified_at: 2022-03-24 22:44
 license: official
 links: 
-- - https://www.nintendo.com.hk/switch/arzga/
+- - https://www.nintendo.co.jp/switch/arzga/
   - 《星之卡比 探索发现》官网
 references: 
 - - https://www.nintendo.com.hk/interview/arzga/

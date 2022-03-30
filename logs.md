@@ -1,12 +1,12 @@
 ---
 date: 2021-06-17 10:56
-last_modified_at: 2022-03-30 18:15
+last_modified_at: 2022-03-30 19:48
 no_date: true
 no_sidenav: true
 title: 更新日志
 ---
 - 2022-03-30：
-  - [《星之卡比 探索发现》的工作 角色设计篇]({% link _switch/arzga.hal.01.md %})翻译完成。
+  - [《星之卡比 探索发现》的工作]({% link _switch/arzga.hal.md %})翻译完成。
 - 2021-07-03：
   - [与川岛教授和开发团队的访谈，Switch的“脑锻炼”。]({% link _switch/as3ma.md %})翻译完成。
 - 2021-06-17：
