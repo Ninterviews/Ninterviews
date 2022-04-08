@@ -53,6 +53,11 @@ defaults:
     values:
       no_date: true
       no_sidenav: true
+  - scope:
+      path: "pages/*/*.staff.*"
+    values:
+      no_date: true
+      no_index: true
 exclude:
   - Debug/
   - node_modules/
