@@ -42,12 +42,12 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ossutil64
-        key: ${{ runner.os }}-ossutil64-1.7.3
+        key: ${{ runner.os }}-ossutil64-1.7.10
       continue-on-error: true
     - name: Get Ossutil
       if: steps.cache-ossutil.outputs.cache-hit != 'true'
       run: |
-        wget -q http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64
+        wget -q http://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
     - name: Config Ossutil
       run: |
         chmod +x ossutil64

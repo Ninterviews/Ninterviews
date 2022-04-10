@@ -1,10 +1,12 @@
 ---
 date: 2021-06-17 10:56
-last_modified_at: 2022-03-30 19:48
+last_modified_at: 2022-04-10 17:01
 no_date: true
 no_sidenav: true
 title: 更新日志
 ---
+- 2022-04-10：
+  - [《耀西的手工世界》开发资料同时公开！向开发者提问内侧的故事]({% link _switch/aea2a.ndw.md %})翻译完成。
 - 2022-03-30：
   - [《星之卡比 探索发现》的工作]({% link _switch/arzga.hal.md %})翻译完成。
 - 2021-07-03：

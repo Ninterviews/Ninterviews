@@ -10,7 +10,7 @@ interviewees:
 - 渡边惠未
 - 蛭子悦延
 - 山本真裕
-last_modified_at: 2022-03-30 20:14
+last_modified_at: 2022-04-10 16:57
 links: 
 - - https://www.nintendo.co.jp/switch/aea2a/index.html
   - 《耀西的手工世界》官网
@@ -27,12 +27,16 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 
 - **手冢卓志**（<span lang="ja">手塚 卓志</span>）：任天堂执行董事。从很早以前就参与了《超级马力欧》系列、《塞尔达传说》系列的开发，也作为《耀西》系列之父为人所熟知。在本作也担任了制作人职务。
 - **松宫信雄**（<span lang="ja">松宮 信雄</span>）：任职于任天堂企划制作部。参与了《耀西的毛线世界》《Hey!皮克敏》等作品，在本作担任了副制作人，在任天堂与Good-Feel之间协调。
-- **渡边惠未**（<span lang="ja">渡辺 恵未</span>）：任职于任天堂企划制作部。以协调者（<span lang="ja">コーディネーター</span>）的身份参与了《毛线卡比》《耀西的毛线世界》等作品，在本作担任了助理制作人。
+- **渡边惠未**（<span lang="ja">渡辺 恵未</span>）：任职于任天堂企划制作部。以协调者（<span lang="ja">コーディネーター</span>）的身份参与了《毛线卡比》《耀西的毛线世界》等作品，在本作担任了副制作人。
 - **蛭子悦延**（<span lang="ja">蛭子 悦延</span>）：Good-Feel代表董事、社长。Good-Feel制作负责人。在本作担任了Good-Feel方面（开发商）的制作人。
-- **山本真裕**（<span lang="ja">山本 真裕</span>）：任职于Good-Feel制作部。过去参与的作品包括DSiWare《立体隐藏画 童话寻踪记》、汽车导航联动软件《在车上DS》（<span lang="ja">クルマでDS</span>）等。
+- **山本真裕**（<span lang="ja">山本 真裕</span>）：任职于Good-Feel制作部。担任了本作的总监。过去参与的作品包括DSiWare《立体隐藏画 童话寻踪记》、汽车导航联动软件《在车上DS》（<span lang="ja">クルマでDS</span>）等。
+
+##### Good-Feel是……
+株式会社Good-Feel以“制作感觉良好的物品”为理念，参与了游戏的策划、制作。曾制作了Wii《毛线卡比》、3DS《瞬缘Mii广场》的游戏“瞬缘射击”等。
+
 
 ## 提到《耀西》系列，就是探索游戏和独特的动作
-实际上，Nintendo DREAM已经很久没有进行过《耀西》系列的采访了。首先要询问的，是耀西的诞生秘闻，以及它是如何成为主角的。此外，我们很少采访过Good-Feel公司。我们将会询问两者之间的联系。
+实际上，Nintendo DREAM已经很久没有进行过《耀西》系列的采访了。首先要询问的是耀西的诞生秘闻，以及它是如何成为主角的。此外，我们很少采访过Good-Feel公司。我们将会询问两者之间的联系。
 
 ### 原本想让马力欧骑马！？搭档耀西的诞生
 ##### 首先我想请教一下耀西的诞生以及成为主角的经过。
@@ -84,7 +88,7 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 
 也可能是没怎么深入考虑就写上了（笑）。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_11.jpg" alt="在《超级马力欧世界》中，可以在耀西的家里看到这样的信息。<br>（内容：欢迎！为了从酷霸王手上救出伙伴，我出去旅行了。如果有事找我的话真是抱歉。超级龙 耀西）" width="410" height="322" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_11.jpg" alt="在《超级马力欧世界》中，可以在耀西的家里看到这样的信息。<br>（内容：欢迎！为了从酷霸王手上救出伙伴，我出去旅行了。如果有事找我的话真是抱歉。超级龙 耀西）" width="410" height="322" %}
 
 ### 和《超级马力欧》不同，只有《耀西》才有的动作
 ##### 在《超级马力欧世界》发售后又发售了《耀西岛》，给人一种《超级马力欧》系列和《耀西》系列走上了不同方向的感觉。
@@ -127,7 +131,7 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 
 是的。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_12.jpg" alt="在《耀西岛》中扔蛋。观察光标移动的时机，确定目标。" width="438" height="318" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_12.jpg" alt="在《耀西岛》中扔蛋。观察光标移动的时机，确定目标。" width="438" height="318" %}
 
 ### 烦恼于“慢慢探索”的感觉 《耀西的毛线世界》
 ##### 前作Wii U平台的《耀西的毛线世界》是和Good-Feel公司一起制作的《耀西》作品，可以谈一谈其中的经过吗？
@@ -148,7 +152,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 我觉得他们已经有了开发成果，又和《耀西》的世界观非常符合。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_13.jpg" alt="2019年3月7日在Nintendo 3DS平台发售的重制版《毛线卡比Plus》。" width="400" height="240" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_13.jpg" alt="2019年3月7日在Nintendo 3DS平台发售的重制版《毛线卡比Plus》。" width="400" height="240" %}
 
 ##### 对于《毛线世界》，参与了开发的各位有没有什么感受呢？
 {: .question }
@@ -166,7 +170,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 ##### 蛭子
 {: .border-blue }
 
-“如果把线条的耀西升级一下的话，就成了编织的耀西”，因为这个想法才有了可爱的编制的样子，也成为了现在这种样子。
+“如果把线条的耀西升级一下的话，就成了编织的耀西”，因为这个想法才有了可爱的编织的样子，也成为了现在这种样子。
 
 ##### 渡边
 {: .border-green }
@@ -183,7 +187,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 所谓探索，就是发现了什么东西的话就会很开心，这也是游戏的中心。这样一来，为了能让玩家好好寻找，隐藏的方法就变得很重要，探索这个平衡是很难的。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_14.jpg" alt="3DS重制版《和波奇一起！耀西的毛线世界》。毛线的编制耀西。" width="400" height="240" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_14.jpg" alt="3DS重制版《和波奇一起！耀西的毛线世界》。毛线的编织耀西。" width="400" height="240" %}
 
 ### 在Switch上玩耀西！通往手工的道路
 ##### 然后，关于本作《手工世界》，开发工作是怎么开始的呢？
@@ -226,7 +230,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 是的。以这个想法为出发点，为了能够灵活运用，最终产生了手工这个主题。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_15.jpg" alt="正因为是手工，才更有“内侧”的感觉！" width="680" height="383" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_15.jpg" alt="正因为是手工，才更有“内侧”的感觉！" width="680" height="383" %}
 
 ## 从外侧和内侧的构想，到实际制作的手工世界
 ### 与点心盒相匹配 耀西的尺寸感
@@ -295,9 +299,9 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 有一个细节，牛奶盒的“哞哞牧场”是《马力欧卡丁车》系列中出现的关卡。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_16.jpg" alt="" width="680" height="524" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_16.jpg" alt="" width="680" height="524" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_17.jpg" alt="为了让人感受到关卡的尺寸感以及外侧和内侧的世界，开发团队还制作了点心盒。" width="680" height="795" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_17.jpg" alt="为了让人感受到关卡的尺寸感以及外侧和内侧的世界，开发团队还制作了点心盒。" width="680" height="795" %}
 
 ##### 山本
 {: .border-purple }
@@ -336,7 +340,7 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 是的。不过大家在玩的时候，即使没有注意到这些事也没关系。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_18.jpg" alt="精心设计而成的各种各样的关卡……舞台是幼儿园!?" width="680" height="383" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_18.jpg" alt="精心设计而成的各种各样的关卡……舞台是幼儿园!?" width="680" height="383" %}
 
 ##### 反过来说，Good-Feel的各位是带着这样的意识来制作游戏的吧。蛭子先生是不是也了解了这些设定呢？
 {: .question }
@@ -385,36 +389,36 @@ Good-Feel公司制作了Wii平台的《毛线卡比》，我觉得使用那种�
 
 我们将外侧视作《耀西》的正统动作游戏，以达到能够让人接受的平衡点为目标。最终，内侧并不等同于外侧，而是将手工这一主题更加深入的内容。因为外侧和内侧并不等同，也就不需要使用2台主机同时玩外侧和内侧了，但从结果来看，我认为这种方式强化了“手工”。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_19.jpg" alt="" width="461" height="321" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_19.jpg" alt="" width="461" height="321" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_20.jpg" alt="在游戏中，可以从内侧确认。在外侧是用点心盒制作成的指示牌！" width="461" height="339" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_20.jpg" alt="在游戏中，可以从内侧确认。在外侧是用点心盒制作成的指示牌！" width="461" height="339" %}
 
 ### 设定资料大公开
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_21.jpg" alt="幼儿园的设计图<br>在园子里有好几个房间。在室外的话可以看到庭院、后山、水池、大厅等。" width="680" height="615" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_21.jpg" alt="幼儿园的设计图<br>在园子里有好几个房间。在室外的话可以看到庭院、后山、水池、大厅等。" width="680" height="615" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_22.jpg" alt="虽然不是设定画，但在背景里可以看到瓷砖。原来这里是洗手间！？" width="680" height="383" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_22.jpg" alt="虽然不是设定画，但在背景里可以看到瓷砖。原来这里是洗手间！？" width="680" height="383" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_23.jpg" alt="水车<br>在牛奶盒上卷上胶带做成的。支撑它的是竹签和吸管。" width="431" height="415" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_23.jpg" alt="水车<br>在牛奶盒上卷上胶带做成的。支撑它的是竹签和吸管。" width="431" height="415" %}
 
 ### 各种各样的组件
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_24.jpg" alt="在木板上悬挂着圆形或方形的动态雕刻（<span lang=\"ja\">モビール</span>）。用瓦楞纸做出基本形状，在外表面贴上毛毡。脸是用毛线做的。" width="375" height="642" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_24.jpg" alt="在木板上悬挂着圆形或方形的动态雕刻（<span lang=\"ja\">モビール</span>）。用瓦楞纸做出基本形状，在外表面贴上毛毡。脸是用毛线做的。" width="375" height="642" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_25.jpg" alt="用纸盘、厚纸做的不倒翁。左右摇晃看着别人……尾巴用胶带贴在了内侧。" width="369" height="576" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_25.jpg" alt="用纸盘、厚纸做的不倒翁。左右摇晃看着别人……尾巴用胶带贴在了内侧。" width="369" height="576" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_26.jpg" alt="装饰在圆木或粗树枝上的小生物。" width="680" height="232" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_26.jpg" alt="装饰在圆木或粗树枝上的小生物。" width="680" height="232" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_27.jpg" alt="以及在布景上画着的角色和小物件，以及椅子上像是门票一样的东西。" width="680" height="355" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_27.jpg" alt="以及在布景上画着的角色和小物件，以及椅子上像是门票一样的东西。" width="680" height="355" %}
 
 ### 地形的设计
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_28_a.jpg" alt="房屋的屋顶用橡皮筋牵拉。" width="401" height="432" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_28_a.jpg" alt="房屋的屋顶用橡皮筋牵拉。" width="401" height="432" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_29.jpg" alt="红色液体的真面目是平底盘里装着的酱。有着像是草莓酱一样的颜色。支撑海绵的是棉花糖手工。真的像是点心一样！" width="466" height="297" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_29.jpg" alt="红色液体的真面目是平底盘里装着的酱。有着像是草莓酱一样的颜色。支撑海绵的是棉花糖手工。真的像是点心一样！" width="466" height="297" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_30.jpg" alt="库拉夫顿<br>脸是折纸做成的气球，身体是点心盒，脚是塑料瓶瓶盖。脸是用马克笔画上去的，表情会变化。" width="401" height="614" %}
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_30.jpg" alt="库拉夫顿<br>脸是折纸做成的气球，身体是点心盒，脚是塑料瓶瓶盖。脸是用马克笔画上去的，表情会变化。" width="401" height="614" %}
 
-{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_31.jpg" alt="耀西碰碰拳<br>用纸杯、有颜色的果冻杯等制作成的耀西手工。背上的杯子是空的，耀西坐了进来。胸部有一个猫眼。" width="680" height="280" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_31.jpg" alt="耀西碰碰拳<br>用纸杯、有颜色的果冻杯等制作成的耀西手工。背上的杯子是空的，耀西坐了进来。胸部有一个猫眼。" width="680" height="280" %}
 
 ### 巨大耀西登场！为了把手工的世界扩展成可以游玩的素材
 ##### 山本
@@ -487,7 +491,7 @@ Good-Feel所在的大楼里，有一家很有名的手工艺用品店。如果�
 
 我们非常执着地制作了火车……“这个要作为发动机所以需要放在这里——”“活塞是摆动汽缸式的——”“这里可以通蒸汽——”虽然这只是手工，但实际上它的构造也是跑得起来的。
 
-<!--{% include figure.html src="https://www.ndw.jp/wordpress/wp-content/uploads/2019/06/ph_32.jpg" alt="在最初的关卡中让人印象深刻的火车。请仔细观察每个部分" width="680" height="383" %}-->
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_32.jpg" alt="在最初的关卡中让人印象深刻的火车。请仔细观察每个部分。" width="680" height="383" %}
 
 ##### 正因为有了这种坚持，所以才能将分散的组件组装起来吧。
 {: .question }
@@ -534,4 +538,124 @@ Good-Feel所在的大楼里，有一家很有名的手工艺用品店。如果�
 
 我想也正是因为是Good Feel公司才能做到。他们满足了我们的细微的要求，直到最后的最后都坚持不懈地想让游戏变得更好，这种态度让我感到非常优秀。
 
-（未完）
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_33.jpg" alt="虽然是2D动作游戏，但也有向里面或外面前进、投掷蛋的场景！" width="680" height="383" %}
+
+## 还想多听一些！耀西的点点滴滴
+在手工世界中游玩的耀西的各种各样的秘闻。在最后，我提出了一些小问题。重复游玩来达成目标自不必说，也请大家来尝试各种各样的发现吧！
+
+##### “耀西本身的材质应该如何”，关于这点是如何决定的呢？
+{: .question }
+
+##### 松宫
+{: .border-orange }
+
+这种材质本身有一种名字，叫做“植毛加工”（<span lang="ja">フロッキー加工</span>）<sup>[译注](#ref-4)</sup>。
+
+> 译注　植毛加工：原文为“<span lang="ja">フロッキー加工</span>”，是一种使用静电或激光等技术在材料表面植入绒毛纤维的技术，参考[1](https://www.print-on.jp/doujin/comic/tokusyu/flocky_kakou_.htm)、[2](http://www.shineipla.co.jp/flocky/)。
+> {: #ref-4 }
+
+##### 山本
+{: .border-purple }
+
+在最初的时候，还打算用真正的耀西。
+
+##### 真正的……？
+{: .question }
+
+##### 山本
+{: .border-purple }
+
+就是在《马力欧》系列中登场的普通材质的耀西。因为背景是接近现实世界的手工作品，如果把普通的耀西放进去的话会产生违和感。于是，我们便开始摸索符合这种世界观的外表，这样应该会更好。
+
+##### 手冢
+{: .border-red }
+
+因为，“耀西是用什么做的？”不是会这样想吗。
+
+##### （笑）
+{: .question }
+
+##### 山本
+{: .border-purple }
+
+但是，如果太有手工感，比如像是用纸箱做成的样子的话，耀西的形状就会崩坏，因此我们尽量在保持标准的样子的条件下，以制作适应世界的形状为目标。在尝试制作粘土或手办之类的样子的过程中，因为植毛加工产生的印象最好，所以就选择了它。就像是实际的玩具人偶一样，天鹅绒风格的加工。
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_34.jpg" alt="短短的像是起毛一样的质感。眼睛并没有植毛加工，而是闪闪发光的。眼里映照出的是什么？" width="372" height="372" %}
+
+##### 是怎样意识到难易度的调整的？
+{: .question }
+
+##### 松宫
+{: .border-orange }
+
+因为我们希望能让大家都能享受耀西的世界的乐趣，因此比起提高难度，我们的目标是达到大家能够享受的难易度。本作是通过收集花朵来前往下一个区域的构成，不仅仅是关卡中登场的花朵，一边在背面搜索小波奇，一边寻找库拉夫顿的搜寻物，只要多次游玩关卡就能在一定程度上收集完成。
+
+##### 但是，如果能全部收集到的话，也很厉害呢。
+{: .question }
+
+##### 松宫
+{: .border-orange }
+
+确实是这样。因此，我们准备了“飞行的耀西”的模式，也调整了其难度。一方面，有玩家追求《耀西岛》开始的挑战性，另一方面又有希望享受可爱的耀西的世界而对难度不知所措的玩家，因此我们也非常注意在使用飞行的耀西的时候应该准备怎样的帮助措施。例如，在接近花朵的时候会给玩家通知，但这仅限于是提示，并不会让玩家失去发现的喜悦。
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_35.jpg" alt="有着各种各样的挑战，如果能够全部完成的话，实力也会得到提升" width="680" height="383" %}
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_36.jpg" alt="要隐藏竹子的话就把它放到竹林里。要隐藏鱼的话就放到海中！？“搜寻物”的经验大概来自于DSiWare《立体隐藏画 童话寻踪记》。" width="680" height="383" %}
+
+##### 换装手工是怎样诞生的呢？
+{: .question }
+
+##### 山本
+{: .border-purple }
+
+在开发初期就有这种构想，最初是作为耀西的舞台服装来考虑的。头上戴着猫耳，身后有尾巴。最初是在早期的构想（两个人的耀西分别在外侧和内侧游玩）中，为了给自己的耀西加上特征而准备的要素。随着开发的进行，当主题固定下来的时候，耀西换装的必要性就变低了，因此就变成了身穿手工的样子。
+
+##### 渡边
+{: .border-green }
+
+而且，如果耀西身上的部件做工很精细的话，就会产生“为什么会这么做”“是谁做的”的问题，就没有说服力了。手工好不容易做得这么好，因此我也希望能使其充分利用。
+
+##### 外观也很有冲击力呢。
+{: .question }
+
+##### 松宫
+{: .border-orange }
+
+耀西把手工拿在手里的样子也很可爱呢。
+
+##### 山本
+{: .border-purple }
+
+那是因为，渡边女士说了“手很可爱！”，因此特意让它用手拿的。
+
+##### 所有人
+（笑）
+
+##### 渡边
+{: .border-green }
+
+用手拿着的话，就好像小孩子玩的电车一样。
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_37.jpg" alt="也可以给多只耀西穿上同样的衣服。让各种耀西都穿上手工的话就会很华丽！" width="680" height="383" %}
+
+## 最后是给各位读者的话
+{: .question }
+
+##### 山本
+{: .border-purple }
+
+一个一个的关卡都是深入制作的，希望大家不仅能享受游戏性，还能享受观感。“搜寻物”的加入也是这样，希望大家能够看到各种各样的手工。如果大家对这个世界观心满意足的话，我会非常高兴的。
+
+##### 蛭子
+{: .border-blue }
+
+因为游戏还有内侧，因此是单纯的容量的2倍。希望大家能多次游玩关卡，好好享受。
+
+##### 手冢
+{: .border-red }
+
+提到耀西，最近大概有很多人在《大乱斗》中使用它，但我认为有很多人还没有玩过耀西的动作游戏。因此，知道耀西却又没有玩过耀西的动作游戏的人，请务必来玩一下。Nintendo eShop中也发布了体验版，希望大家可以先了解一下这是什么样的游戏。
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_38.jpg" alt="可以好好地游玩最初的关卡的体验版。" width="680" height="383" %}
+
+{% include figure.html src="https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2019/06/ph_last.jpg" alt="" width="680" height="592" %}
