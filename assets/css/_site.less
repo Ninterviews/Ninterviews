@@ -100,7 +100,12 @@ figure {
 /* 行内元素 */
 article {
   a[target="_blank"] {
+    color: @link-external-color;
     text-decoration: underline;
+
+    &:hover, &:focus {
+      color: @link-external-hover-color;
+    }
 
     &::before, &::after {
       display: inline-block;
@@ -120,6 +125,18 @@ article {
       width: 12px;
       height: 9px;
       background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23888%22%20viewBox%3D%220%200%2012%209%22%3E%3Cpath%20d%3D%22M3%2C0v6h9v-6Zm1%2C2h7v3h-7ZM0%2C3v6H9V7H8v1H1V5h1V3Z%22%2F%3E%3C%2Fsvg%3E') !important;
+    }
+  }
+
+  .ni-category-list a {
+    text-decoration: none;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+
+    &::before {
+      content: normal;
     }
   }
 }
