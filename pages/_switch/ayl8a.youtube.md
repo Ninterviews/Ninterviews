@@ -1,9 +1,9 @@
 ---
-date: 2021-04-30
+date: 2021-06-16
 external_url: https://www.bilibili.com/video/BV1XB4y1M7dz/
 interviewees: 
 - 坂本贺勇
-last_modified_at: 2022-04-11 16:59
+last_modified_at: 2022-04-11 22:54
 layout: external
 sources: 
 - - https://www.youtube.com/watch?v=OJBdutrwWtE
