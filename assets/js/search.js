@@ -6,14 +6,15 @@ $(function () {
   });
 
   let hitTemplate = function(hit) {
-    let url = hit.url,
+    let url = hit.external_url || hit.url,
         title = hit._highlightResult.title.value,
         interviewees = (hit._highlightResult.interviewees || []).map(x => x.value),
         content = (hit._highlightResult.content || []).value;
 
     let defineList = $("<dl/>").addClass("ni-search-list-item"),
         defineTitle = $("<dt/>").addClass("ni-search-list-title").append($("<a/>").attr({
-          "href": url
+          "href": url,
+          "target": hit.external_url ? "_blank" : null
         }).html(title)).appendTo(defineList),
         defineInterviewees = interviewees.length ? $("<dd/>").addClass("ni-search-list-interviewees").append($("<ul/>").addClass("list-inline").append(interviewees.map(x => $("<li/>").html(x)))).appendTo(defineList) : null,
         defineContent = $("<dd/>").addClass("ni-search-list-content").html(content).appendTo(defineList);

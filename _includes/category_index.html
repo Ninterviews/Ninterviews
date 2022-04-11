@@ -1,0 +1,13 @@
+{% assign collection = include.collection %}{% assign _docs = collection.docs | reverse %}{% assign _internal_html = "" %}{% assign _external_html = "" %}
+{% for interview in _docs %}{% unless interview.no_date or interview.no_index %}{% if interview.external_url %}{% capture _external_html %}{{ _external_html }}
+    <li><a href="{{ interview.external_url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y.%-m.%-d" }}]</li>{% endcapture %}{% else %}{% capture _internal_html %}{{ _internal_html }}
+    <li><a href="{{ interview.url | relative_url }}">{{ interview.title }}</a> [{{ interview.date | date: "%Y.%-m.%-d" }}]</li>{% endcapture %}{% endif %}{% endunless -%}
+{% endfor %}{% if _internal_html != "" or _external_html != "" %}
+<div class="ni-category">{% if include.name %}
+  <div><strong>{{ include.name }}</strong></div>{% endif %}{% if _internal_html != "" %}
+  <ul class="ni-category-list">{{ _internal_html }}
+  </ul>{% endif %}{% if _external_html != "" %}
+  <div>外部网站链接</div>
+  <ul class="ni-category-list">{{ _external_html }}
+  </ul>{% endif %}
+</div>{% endif %}

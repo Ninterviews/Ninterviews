@@ -3,12 +3,6 @@ layout: default
 no_date: true
 no_sidenav: true
 ---
-<div>{% for category in site.data.categories %}{% assign collection = site.collections | where: "label", category[0] | first %}
-  <div class="ni-category">
-    <div>{{ category[1].name }}</div>
-    <ul class="ni-category-list">{% assign _docs = collection.docs | reverse %}{% for interview in _docs %}{% unless interview.no_date or interview.no_index %}
-      <li><a href="{% if interview.external_url %}{{ interview.external_url }}{% else %}{{ interview.url | relative_url }}{% endif %}">{{ interview.title }}</a> [{{ interview.date | date: "%Y.%-m.%-d" }}]</li>{% endunless %}{% endfor %}
-    </ul>
-  </div>{% endfor %}
-</div>
+{% for category in site.data.categories %}{% assign collection = site.collections | where: "label", category[0] | first %}{% assign name = category[1].name %}{% include category_index.html collection=collection name=name %}
+{% endfor %}
 {% include external_tips.html %}
