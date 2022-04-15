@@ -3,7 +3,7 @@ author: Xzonn
 date: 2022-03-22
 interviewees: 
 - 矢吹光佑
-last_modified_at: 2022-04-13 14:51
+last_modified_at: 2022-04-14 16:54
 links: 
 - - https://www.nintendo.co.jp/switch/aabpa/
   - 《马力欧卡丁车8 豪华版》官网
@@ -13,6 +13,8 @@ sources:
 title: 马力欧卡丁车的创作者，致力于“谁都能享受的圈层广度”
 ---
 任天堂宣布，2017年4月发售的Nintendo Switch游戏《马力欧卡丁车8 豪华版》（马车8DX）的累计销量达到4335万份（截至2021年末）。本作已超过1985年发售的《超级马力欧兄弟》（累计销量4024万份），成为历史上销量最高的“马力欧”游戏。我们向马车8DX的制作人矢吹光佑询问了支撑其人气的秘诀。
+
+{% include interviewee.html name="矢吹光佑" info="《马力欧卡丁车8 豪华版》制作人。" %}
 
 ##### 您是否预料到本作销量将超过4000万部，成为一部历史性的热门作品？
 {: .question }

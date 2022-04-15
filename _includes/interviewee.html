@@ -1,0 +1,7 @@
+{% assign _interviewee = site.data.interviewees[include.name] %}<div class="ni-interviewee">{% if _interviewee.image or include.image %}
+  <div class="ni-interviewee-image">{% capture _url %}{% if include.image %}{{ include.image }}{% else %}{{ site.image_cdn }}/interviewees/{{ _interviewee.image }}{% endif %}{% endcapture %}{% include image.html src=_url width="100" height="100" %}</div>{% endif %}
+  <div class="ni-interviewee-info">
+    <div class="ni-interviewee-name{% if include.class %} {{ include.class }}{% endif %}"><span class="ni-interviewee-name-zh">{{ include.name }}</span>{% if _interviewee.japanese or include.japanese %}<span class="ni-interviewee-name-ja" lang="ja">{% if include.japanese %}{{ include.japanese }}{% else %}{% if _interviewee.kana %}<span lang="ja"><ruby>{{ _interviewee.japanese | split: " " | first }}<rt>{{ _interviewee.kana | split: " " | first }}</rt></ruby> <ruby>{{ _interviewee.japanese | split: " " | last }}<rt>{{ _interviewee.kana | split: " " | last }}</rt></ruby></span>{% else %}{{ _interviewee.japanese }}{% endif %}{% endif %}</span>{% endif %}</div>
+    <p>{{ include.info }}</p>
+  </div>
+</div>

@@ -1,10 +1,14 @@
 ---
 date: 2021-06-17 10:56
-last_modified_at: 2022-04-10 17:01
+last_modified_at: 2022-04-13 20:27
 no_date: true
 no_sidenav: true
 title: 更新日志
 ---
+- 2022-04-13：
+  - [马力欧卡丁车的创作者，致力于“谁都能享受的圈层广度”]({% link _switch/aabpa.nikkei.md %})翻译完成。
+- 2022-04-12：
+  - [Switch《Famicom侦探俱乐部》访谈。从企划的开始到开发中的插曲，如同少年侦探一般提问【包含剧透】]({% link _switch/aw3ca.famitsu.md %})翻译完成。
 - 2022-04-10：
   - [《耀西的手工世界》开发资料同时公开！向开发者提问内侧的故事]({% link _switch/aea2a.ndw.md %})翻译完成。
 - 2022-03-30：

@@ -1,6 +1,6 @@
 ---
 date: 2021-05-27
-last_modified_at: 2021-06-19 20:58
+last_modified_at: 2022-04-13 20:28
 no_sidenav: true
 permalink: /about.html
 title: 关于本计划
@@ -18,6 +18,10 @@ title: 关于本计划
 本计划尽可能采用了任天堂认可的官方译名，但难免会出现错误。如果您发现了内容错误，或对本计划有一些意见和建议，都可以[在GitHub提交问题](https://github.com/Ninterviews/ninterviews.github.io/issues)。
 
 本计划为爱好者设立的项目，并非任天堂官方项目。如有侵权内容，请联系我删除。
+
+参考资料：
+
+- [<span lang="ja">任天堂開発インタビューアーカイブス</span>](https://gameinterview.wiki.fc2.com/wiki/%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8)
 
 Xzonn
 {: .text-right }

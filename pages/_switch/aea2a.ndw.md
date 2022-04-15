@@ -10,7 +10,7 @@ interviewees:
 - 渡边惠未
 - 蛭子悦延
 - 山本真裕
-last_modified_at: 2022-04-10 16:57
+last_modified_at: 2022-04-14 20:19
 links: 
 - - https://www.nintendo.co.jp/switch/aea2a/index.html
   - 《耀西的手工世界》官网
@@ -25,11 +25,15 @@ title: 《耀西的手工世界》开发资料同时公开！向开发者提问�
 本作从发售以来已经经过了一段时间，也是“自选两款 任天堂游戏兑换券”适用的游戏，我们将送上本作的采访报道。不仅会公开内侧的开发秘闻，还会公开开发的资料。  
 首先从与本作相关的任天堂的各位，以及开发公司Good-Feel的2人的简介开始。（本文摘自《Nintendo DREAM》2019年5月号）
 
-- **手冢卓志**（<span lang="ja">手塚 卓志</span>）：任天堂执行董事。从很早以前就参与了《超级马力欧》系列、《塞尔达传说》系列的开发，也作为《耀西》系列之父为人所熟知。在本作也担任了制作人职务。
-- **松宫信雄**（<span lang="ja">松宮 信雄</span>）：任职于任天堂企划制作部。参与了《耀西的毛线世界》《Hey!皮克敏》等作品，在本作担任了副制作人，在任天堂与Good-Feel之间协调。
-- **渡边惠未**（<span lang="ja">渡辺 恵未</span>）：任职于任天堂企划制作部。以协调者（<span lang="ja">コーディネーター</span>）的身份参与了《毛线卡比》《耀西的毛线世界》等作品，在本作担任了副制作人。
-- **蛭子悦延**（<span lang="ja">蛭子 悦延</span>）：Good-Feel代表董事、社长。Good-Feel制作负责人。在本作担任了Good-Feel方面（开发商）的制作人。
-- **山本真裕**（<span lang="ja">山本 真裕</span>）：任职于Good-Feel制作部。担任了本作的总监。过去参与的作品包括DSiWare《立体隐藏画 童话寻踪记》、汽车导航联动软件《在车上DS》（<span lang="ja">クルマでDS</span>）等。
+{% include interviewee.html name="手冢卓志" info="任天堂执行董事。从很早以前就参与了《超级马力欧》系列、《塞尔达传说》系列的开发，也作为《耀西》系列之父为人所熟知。在本作也担任了制作人职务。" class="border-red" %}
+
+{% include interviewee.html name="松宫信雄" info="任职于任天堂企划制作部。参与了《耀西的毛线世界》《Hey!皮克敏》等作品，在本作担任了副制作人，在任天堂与Good-Feel之间协调。" class="border-orange" %}
+
+{% include interviewee.html name="渡边惠未" info="任职于任天堂企划制作部。以协调者（<span lang=\"ja\">コーディネーター</span>）的身份参与了《毛线卡比》《耀西的毛线世界》等作品，在本作担任了副制作人。" class="border-green" %}
+
+{% include interviewee.html name="蛭子悦延" info="Good-Feel代表董事、社长。Good-Feel制作负责人。在本作担任了Good-Feel方面（开发商）的制作人。" class="border-blue" %}
+
+{% include interviewee.html name="山本真裕" info="任职于Good-Feel制作部。担任了本作的总监。过去参与的作品包括DSiWare《立体隐藏画 童话寻踪记》、汽车导航联动软件《在车上DS》（<span lang=\"ja\">クルマでDS</span>）等。" class="border-purple" %}
 
 ##### Good-Feel是……
 株式会社Good-Feel以“制作感觉良好的物品”为理念，参与了游戏的策划、制作。曾制作了Wii《毛线卡比》、3DS《瞬缘Mii广场》的游戏“瞬缘射击”等。

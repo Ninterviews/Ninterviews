@@ -33,6 +33,14 @@ body {
 article {
   font-size: 18px;
   text-align: justify;
+
+  & *:first-child {
+    margin-top: 0;
+  }
+
+  & *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 blockquote {
@@ -49,13 +57,15 @@ h2, .h2 {
 
 h3, .h3 {
   padding: 15px 20px;
-  border-left: 4px solid #bbb;
+  border-left: 4px solid;
+  border-color: #bbb;
   background-color: #f2f2f2;
 }
 
 h4, .h4, h5, .h5, .border-left {
   padding-left: ~'calc(1em - 5px)';
-  border-left: 5px solid #bbb;
+  border-left: 5px solid;
+  border-color: #bbb;
 }
 
 @media print {
@@ -167,23 +177,23 @@ u {
   }
 }
 
-.border-blue {
+.border-blue.border-blue {
   border-color: #009beb;
 }
 
-.border-green {
+.border-green.border-green {
   border-color: #009682;
 }
 
-.border-orange {
+.border-orange.border-orange {
   border-color: #f5aa00;
 }
 
-.border-purple {
+.border-purple.border-purple {
   border-color: #6f42c1;
 }
 
-.border-red {
+.border-red.border-red {
   border-color: #e60012;
 }
 
@@ -208,19 +218,4 @@ u {
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-/* 广告 */
-.ni-content-comment {
-  & > div {
-    display: none;
-  }
-
-  & > div#lv-container {
-    display: block;
-
-    & > div {
-      display: none;
-    }
-  }
 }

@@ -75,6 +75,50 @@ article::after {
   }
 }
 
+/* interviewee */
+.ni-interviewee {
+  position: relative;
+  padding: 10px;
+  display: flex;
+
+  & > div {
+    margin: 10px;
+  }
+}
+
+.ni-interviewee-name {
+  width: fit-content;
+  margin-bottom: 15px;
+  background-color: #fff;
+  .border-left;
+}
+
+.ni-interviewee-name-zh {
+  font-weight: 700;
+}
+
+.ni-interviewee-name-ja {
+  font-size: 12px;
+
+  &::before {
+    content: '\ff08';
+  }
+
+  &::after {
+    content: '\ff09';
+  }
+}
+
+.ni-author-image, .ni-interviewee-image {
+  & > img {
+    object-fit: cover;
+    box-sizing: content-box;
+    border: 2px solid @gray-lighter;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+  }
+}
+
 /* author */
 .ni-author {
   display: table;
@@ -103,14 +147,7 @@ article::after {
 .ni-author-image {
   width: 54px;
 
-  > img {
-    box-sizing: content-box;
-    border: 2px solid @gray-lighter;
-    border-radius: 50%;
-    background-color: #f5f5f5;
-  }
 }
-
 /* links */
 .ni-infobox-bottom {
   position: relative;
@@ -146,5 +183,20 @@ article::after {
   a {
     color: inherit;
     word-break: break-all;
+  }
+}
+
+/* 广告 */
+.ni-content-comment {
+  & > div {
+    display: none;
+  }
+
+  & > div#lv-container {
+    display: block;
+
+    & > div {
+      display: none;
+    }
   }
 }
