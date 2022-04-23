@@ -62,6 +62,17 @@ h3, .h3 {
   background-color: #f2f2f2;
 }
 
+h4, .h4 {
+  padding: 10px 15px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%2032%22%3E%3Cpolygon%20points%3D%220%2C0%201024%2C0%201008%2C16%201024%2C32%200%2032%22%20style%3D%22fill%3A%23f7f7f7%3B%22%20%2F%3E%3C%2Fsvg%3E");
+  background-position: right;
+  background-size: cover;
+
+  &:not(h2 + h4, h3 + h4, h4 + h4) {
+    margin-top: 60px;
+  }
+}
+
 h4, .h4, h5, .h5, .border-left {
   padding-left: ~'calc(1em - 5px)';
   border-left: 5px solid;
