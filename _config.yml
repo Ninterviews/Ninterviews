@@ -64,6 +64,7 @@ exclude:
   - vendor/
   - Gemfile
   - Gemfile.lock
+  - ossutil64
   - package.json
   - package-lock.json
   - "*.less"
