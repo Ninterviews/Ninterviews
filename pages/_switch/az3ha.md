@@ -7,7 +7,7 @@ interviewees:
 - 高桥哲哉
 - 小岛幸
 - 横田弦纪
-last_modified_at: 2022-07-29 11:09
+last_modified_at: 2022-08-03 14:36
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/az3ha/
@@ -38,10 +38,10 @@ title: 开发人员的访谈：异度神剑3
 > {: #ref-1 }
 
 ##### 小岛
-我是Monolith Soft的小岛。在本作担任制作人与监制的职务。说到头衔是这样……但我主要的工作是负责任天堂与Monolith Soft之间的协调，以及磨合高桥先生与Monolith Soft的开发现场。
+我是Monolith Soft的小岛。在本作担任制作人与总监的职务。说到头衔是这样……但我主要的工作是负责任天堂与Monolith Soft之间的协调，以及磨合高桥先生与Monolith Soft的开发现场。
 
 ##### 横田
-我是任天堂的横田。头衔同样是制作人与监制，我以任天堂方的项目负责人身份参与了企划立案至完成的过程。简单来说，我是任天堂方的窗口，负责与Monolith Soft讨论游戏的内容。请多指教。
+我是任天堂的横田。头衔同样是制作人与总监，我以任天堂方的项目负责人身份参与了企划立案至完成的过程。简单来说，我是任天堂方的窗口，负责与Monolith Soft讨论游戏的内容。请多指教。
 
 {% include figure.html src="https://www.nintendo.co.jp/interview/az3ha/img/fig_chapter01-01.png" width="640" height="360" %}
 
@@ -57,9 +57,9 @@ title: 开发人员的访谈：异度神剑3
 {: .question }
 
 ##### 高桥
-本作是在《[异度神剑<sup>[※2](#ref-2)</sup>](https://www.youtube.com/watch?v=-8gQhbTn6ss)》《[异度神剑2](https://www.youtube.com/watch?v=vXSTAM5fP0s)》之后的“异度神剑”系列第三作，第一作是在人之神“巨神”的世界居住的主角与伙伴们
+本作是在《[异度神剑](https://www.youtube.com/watch?v=-8gQhbTn6ss)<sup>[※2](#ref-2)</sup>》《[异度神剑2](https://www.youtube.com/watch?v=vXSTAM5fP0s)》之后的“异度神剑”系列第三作。
 
-运用能看见未来的剑“蒙纳多”，守护自己所居住的世界，并为了未来而战的故事。第二作则是描绘了住在漂浮于空中的“巨神兽”的世界的主角与不老不死的“神剑”少女相遇，以乐园为目标彼此协助，有限与永恒生命的故事。
+第一作是在人之神“巨神”的世界居住的主角与伙伴们运用能看见未来的剑“蒙纳多”，守护自己所居住的世界，并为了未来而战的故事。第二作则是描绘了住在漂浮于空中的“巨神兽”的世界的主角与不老不死的“神剑”少女相遇，以乐园为目标彼此协助，有限与永恒生命的故事。
 
 而第三作的本作，则是以连接一、二代世界的“艾欧尼翁”为舞台，是隶属于两个敌对国家的六名年轻士兵的故事。
 
