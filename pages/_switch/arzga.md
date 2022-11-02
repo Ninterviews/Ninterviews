@@ -8,7 +8,7 @@ interviewees:
 - 熊崎信也
 - 神山达哉
 - 远藤裕贵
-last_modified_at: 2022-03-24 22:44
+last_modified_at: 2022-11-02 18:01
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/arzga/
@@ -21,10 +21,13 @@ sources:
   - "開発者に訊きました : 星のカービィ　ディスカバリー"
 title: 开发人员的访谈：星之卡比 探索发现
 ---
-- **二宫启**（<span lang="ja"><ruby>二宮<rt>にのみや</rt></ruby> <ruby>啓<rt>けい</rt></ruby></span>）：任天堂企划制作部第2制作组。
-- **熊崎信也**（<span lang="ja"><ruby>熊崎<rt>くまざき</rt></ruby> <ruby>信也<rt>しんや</rt></ruby></span>）：HAL研究所，综合总监。
-- **神山达哉**（<span lang="ja"><ruby>神山<rt>かみやま</rt></ruby> <ruby>達哉<rt>たつや</rt></ruby></span>）：HAL研究所，总监。
-- **远藤裕贵**（<span lang="ja"><ruby>遠藤<rt>えんどう</rt></ruby> <ruby>裕貴<rt>ゆうき</rt></ruby></span>）：HAL研究所，关卡设计总监。
+{% include interviewee.html name="二宫启" info="任天堂企划制作部第2制作组。" %}
+
+{% include interviewee.html name="熊崎信也" info="HAL研究所，综合总监。" %}
+
+{% include interviewee.html name="神山达哉" info="HAL研究所，总监。" %}
+
+{% include interviewee.html name="远藤裕贵" info="HAL研究所，关卡设计总监。" %}
 
 ### 1. 为什么不提高敌人的密度？
 ##### “开发人员的访谈”这个单元是通过访谈开发者，让玩家可以了解任天堂在创造游戏时的想法和讲究的地方。在进入第4次的本次，我们访谈了即将在3月25日（五）发售的《星之卡比 探索发现》的开发人员们。首先，可以请各位简单自我介绍一下吗？
