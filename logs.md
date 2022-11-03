@@ -1,10 +1,12 @@
 ---
 date: 2021-06-17 10:56
-last_modified_at: 2022-04-13 20:27
+last_modified_at: 2022-11-02 23:57
 no_date: true
 no_sidenav: true
 title: 更新日志
 ---
+- 2022-11-02：
+  - 新译者Baidao加入。
 - 2022-04-13：
   - [马力欧卡丁车的创作者，致力于“谁都能享受的圈层广度”]({% link _switch/aabpa.nikkei.md %})翻译完成。
 - 2022-04-12：

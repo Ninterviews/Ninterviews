@@ -20,5 +20,5 @@ ossutil64
 
 # Draft
 Debug/
-*.draft.md
+*.draft.*
 *.psd
