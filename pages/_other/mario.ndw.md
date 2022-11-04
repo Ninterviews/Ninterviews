@@ -3,7 +3,7 @@ author: Xzonn
 date: 2009-12-21
 interviewees: 
 - 宫本茂
-last_modified_at: 2022-11-03 20:46
+last_modified_at: 2022-11-04 15:55
 sources: 
 - - https://www.ndw.jp/mario-220913-2/
   - 宮本茂さんに聞く“マリオたちの名前の由来”
@@ -82,9 +82,11 @@ title: 请教宫本茂先生“马力欧们名字的由来”
 栗宝宝也是在开发中叫的名字……那个，栗宝宝真的是蘑菇哟（笑）。但是，因为程序员看起来像栗子（<span lang="ja">栗／くり</span>），所以叫他栗宝宝（<span lang="ja">クリボー</span>）。我是画了蘑菇……它无论怎么看都是香菇吧。等我注意到的时候，周围的人也这么称呼它了，就只能保持这个名字（笑）。之后，根据系列的不同，也有些像栗子一样的画。
 
 ### 慢慢龟&飞行龟
-{% include figure.html src="https://www.mariowiki.com/images/thumb/5/5c/SuperMarioParty_KoopaTroopa.png/474px-SuperMarioParty_KoopaTroopa.png" alt="慢慢龟" width="237" height="300" %}
+<div class="figure-row">
+{% include figure.html src="https://www.mariowiki.com/images/thumb/5/5c/SuperMarioParty_KoopaTroopa.png/474px-SuperMarioParty_KoopaTroopa.png" alt="慢慢龟" width="237" height="300" blank="  " %}
 
-{% include figure.html src="https://www.mariowiki.com/images/thumb/e/e4/Paratroopart.png/465px-Paratroopart.png" alt="飞行龟" width="232.5" height="299.5" %}
+{% include figure.html src="https://www.mariowiki.com/images/thumb/e/e4/Paratroopart.png/465px-Paratroopart.png" alt="飞行龟" width="232.5" height="299.5" blank="  " %}
+</div>
 
 ##### 宫本
 {: .border-red }
@@ -103,11 +105,13 @@ title: 请教宫本茂先生“马力欧们名字的由来”
 > {: #ref-4 }
 
 ### 泡泡鱼
-{% include figure.html src="https://www.mariowiki.com/images/thumb/6/63/CheepCheepNSMBU.png/613px-CheepCheepNSMBU.png" alt="泡泡鱼" width="306.5" height="300" %}
+<div class="figure-row">
+{% include figure.html src="https://www.mariowiki.com/images/thumb/6/63/CheepCheepNSMBU.png/613px-CheepCheepNSMBU.png" alt="泡泡鱼" width="306.5" height="300" blank="  " %}
 
-{% include figure.html src="https://www.mariowiki.com/images/thumb/3/35/NSMBU_Buzzy_Beetle_Artwork.png/687px-NSMBU_Buzzy_Beetle_Artwork.png" alt="钢盔龟" width="343.5" height="299.5" %}
+{% include figure.html src="https://www.mariowiki.com/images/thumb/3/35/NSMBU_Buzzy_Beetle_Artwork.png/687px-NSMBU_Buzzy_Beetle_Artwork.png" alt="钢盔龟" width="343.5" height="299.5" blank="  " %}
 
-{% include figure.html src="https://www.mariowiki.com/images/thumb/3/3e/Spiny_Artwork_-_New_Super_Mario_Bros._2.png/628px-Spiny_Artwork_-_New_Super_Mario_Bros._2.png" alt="刺刺龟" width="314" height="299.5" %}
+{% include figure.html src="https://www.mariowiki.com/images/thumb/3/3e/Spiny_Artwork_-_New_Super_Mario_Bros._2.png/628px-Spiny_Artwork_-_New_Super_Mario_Bros._2.png" alt="刺刺龟" width="314" height="299.5" blank="  " %}
+</div>
 
 ##### 宫本
 {: .border-red }

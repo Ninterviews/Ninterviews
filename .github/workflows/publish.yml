@@ -35,26 +35,26 @@ jobs:
         with:
           name: html
           path: _site
+      - name: Update Algolia index
+        run: |
+          bundle exec jekyll algolia push
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+        if: env.ALGOLIA_API_KEY != ''
+        continue-on-error: true
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: actions/download-artifact@v3
         with:
           name: html
           path: _site
-      - name: Update Algolia index
-        run: |
-          bundle exec jekyll algolia push
-        env:
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-        continue-on-error: true
       - name: Cache Ossutil
         id: cache-ossutil
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ossutil64
           key: ${{ runner.os }}-ossutil64-1.7.14

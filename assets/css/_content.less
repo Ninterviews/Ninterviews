@@ -78,11 +78,27 @@ article::after {
 /* interviewee */
 .ni-interviewee {
   position: relative;
-  padding: 10px;
   display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
   & > div {
     margin: 10px;
+  }
+}
+
+.ni-interviewee-image {
+  flex: 0 0 104px;
+}
+
+.ni-interviewee-info {
+  flex: 1 0 0%;
+}
+
+@media screen and (max-width: @screen-sm-max) {
+  .ni-interviewee-info {
+    flex: 1 0 100%;
   }
 }
 
@@ -112,6 +128,7 @@ article::after {
 .ni-author-image, .ni-interviewee-image {
   & > img {
     object-fit: cover;
+    object-position: top;
     box-sizing: content-box;
     border: 2px solid @gray-lighter;
     border-radius: 50%;

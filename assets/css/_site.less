@@ -95,6 +95,10 @@ figure {
   text-align: center;
   font-size: 0.75em;
 
+  .figure-row {
+    margin: 0 auto;
+  }
+
   img {
     display: block;
     margin-right: auto;
@@ -107,9 +111,25 @@ figure {
     float: right;
     margin-right: -12px;
 
+    & + a.figure-link {
+      margin-right: -5px;
+    }
+
     article &::before {
       content: normal;
     }
+  }
+}
+
+.figure-row {
+  display: flex;
+  margin: 15px auto;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  figure {
+    margin: 0 auto;
   }
 }
 
@@ -219,7 +239,7 @@ u {
   position: relative;
 }
 
-/* 视频 */
+/* 视频、音乐 */
 .youtube-video, .bilibili-video {
   margin: 15px auto;
   width: 100%;
@@ -227,7 +247,13 @@ u {
   aspect-ratio: 16/9;
 }
 
-.youtube-video-iframe, .bilibili-video-iframe {
+._163-music {
+  margin: 15px auto;
+  width: 100%;
+  height: 86px;
+}
+
+.youtube-video-iframe, .bilibili-video-iframe, ._163-music-iframe {
   display: block;
   margin: 0 auto;
   width: 100%;
