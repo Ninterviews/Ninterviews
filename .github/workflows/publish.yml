@@ -9,49 +9,64 @@ on:
       - master
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-        bundler-cache: true
-    - uses: actions/setup-node@v1
-      with:
-        node-version: 12
-    - name: Npm
-      run: |
-        npm install
-    - name: Less
-      run: |
-        ./node_modules/less/bin/lessc -x assets/css/_base.less assets/css/base.css
-    - name: Build Site
-      run: |
-        bundle exec jekyll build --trace --profile
-      env:
-        JEKYLL_ENV: aliyun
-    - name: Update Algolia index
-      run: |
-        bundle exec jekyll algolia push
-      env:
-        ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-      continue-on-error: true
-    - name: Cache Ossutil
-      id: cache-ossutil
-      uses: actions/cache@v2
-      with:
-        path: ossutil64
-        key: ${{ runner.os }}-ossutil64-1.7.10
-      continue-on-error: true
-    - name: Get Ossutil
-      if: steps.cache-ossutil.outputs.cache-hit != 'true'
-      run: |
-        wget -q http://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
-    - name: Config Ossutil
-      run: |
-        chmod +x ossutil64
-        ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
-    - name: Publish Site
-      run: |
-        ./ossutil64 cp -r -f -u _site/ oss://xzonn-ninterviews/ --jobs 1000 --retry-times 3 --loglevel info
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Npm
+        run: |
+          npm install
+      - name: Less
+        run: |
+          ./node_modules/less/bin/lessc -x assets/css/_base.less assets/css/base.css
+      - name: Build Site
+        run: |
+          bundle exec jekyll build --trace --profile
+        env:
+          JEKYLL_ENV: aliyun
+      - uses: actions/upload-artifact@v3
+        with:
+          name: html
+          path: _site
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          name: html
+          path: _site
+      - name: Update Algolia index
+        run: |
+          bundle exec jekyll algolia push
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+        continue-on-error: true
+      - name: Cache Ossutil
+        id: cache-ossutil
+        uses: actions/cache@v2
+        with:
+          path: ossutil64
+          key: ${{ runner.os }}-ossutil64-1.7.14
+        continue-on-error: true
+      - name: Get Ossutil
+        if: steps.cache-ossutil.outputs.cache-hit != 'true'
+        run: |
+          wget -q http://gosspublic.alicdn.com/ossutil/1.7.14/ossutil64
+      - name: Config Ossutil
+        run: |
+          chmod +x ossutil64
+          ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
+      - name: Publish Site
+        run: |
+          ./ossutil64 cp -r -f -u _site/ oss://xzonn-ninterviews/ --jobs 1000 --retry-times 3 --loglevel info
