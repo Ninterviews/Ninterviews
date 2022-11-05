@@ -4,7 +4,12 @@ date: 2014-11-21
 image: 3b0ccce5cdc9beee1f74307073f3db10.png
 image_height: 955
 image_width: 1696
-last_modified_at: 2022-11-04 17:37
+interviewees: 
+- 林田宏一
+- 平竹晋也
+- 北原有加
+- 村田翔
+last_modified_at: 2022-11-05 00:36
 links: 
 - - https://www.nintendo.co.jp/wiiu/akbj/
   - Wii U《前进！奇诺比奥队长》官网

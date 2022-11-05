@@ -1,6 +1,6 @@
 ---
 author: Baidao
-date: 2022-04-18
+date: 2021-05-21
 image: https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw1b2fa352/products/D70010000012243/heroBanner/5a8c60a6a7e3d9c7a0d06be5b351dda7aa79573947031ede850fb060ce857961.jpg
 image_height: 1080
 image_width: 1920
@@ -9,7 +9,7 @@ interviewees:
 - 襟川芽衣
 - 宫内淳
 - 杉原希
-last_modified_at: 2022-11-02 19:10
+last_modified_at: 2022-11-05 09:49
 links: 
 - - https://www.nintendo.co.jp/switch/ap2fa/index.html
   - 《搭档任务 秘密搜查组》官网
