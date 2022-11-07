@@ -9,14 +9,14 @@ interviewees:
 - 襟川芽衣
 - 宫内淳
 - 杉原希
-last_modified_at: 2022-11-05 09:49
+last_modified_at: 2022-11-07 14:15
 links: 
 - - https://www.nintendo.co.jp/switch/ap2fa/index.html
   - 《搭档任务 秘密搜查组》官网
 sources: 
 - - https://www.ndw.jp/bondinta_main/
   - バディミッション BOND 開発者インタビュー
-title: 《搭档任务 秘密搜查组》开发者访谈
+title: 《搭档任务 秘密搜查组》开发者访谈（Nintendo DREAM）
 ---
 由任天堂和光荣特库摩游戏合作巨献的数字漫画冒险游戏《搭档任务 秘密搜查组》（Nintendo Switch）。虽然是完全新作冒险游戏，但吸引了众多粉丝，还被评为“日本游戏大奖2021”的优秀奖。本文包含了《Nintendo DREAM》杂志刊登的开发者访谈。
 
