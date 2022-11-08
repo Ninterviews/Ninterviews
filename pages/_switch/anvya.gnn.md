@@ -4,7 +4,7 @@ external_url: https://gnn.gamer.com.tw/detail.php?sn=183258
 interviewees: 
 - 横田弦纪
 - 草木原俊行
-last_modified_at: 2022-04-13 13:19
+last_modified_at: 2022-11-08 19:20
 layout: external
 sources: 
 - - https://gnn.gamer.com.tw/detail.php?sn=183258
@@ -15,7 +15,7 @@ title: 前进任天堂本社！《FIRE EMBLEM 风花雪月》制作团队独家�
 
 {% include figure.html src="https://p2.bahamut.com.tw/B/2KU/82/21e9bf7cf2dab331d9ee68805b15nwq5.JPG" width="776" height="407" %}
 
-《FIRE EMBLEM （又称：火焰之纹章）》是将“养成同伴的RPG游戏”与“制订战术作战的模拟游戏”两种乐趣融为一体的角色扮演模拟游戏系列，《FIRE EMBLEM 风花雪月》除了具有本系列的传统要素之外，还加上了本作独有的战略性及具有更高养成性的全新系统等，变得更为先进。
+《FIRE EMBLEM》（又称：火焰之纹章）是将“养成同伴的RPG游戏”与“制订战术作战的模拟游戏”两种乐趣融为一体的角色扮演模拟游戏系列，《FIRE EMBLEM 风花雪月》除了具有本系列的传统要素之外，还加上了本作独有的战略性及具有更高养成性的全新系统等，变得更为先进。
 
 作为玩家分身的本作主角将化身为士官学校的教师，士官学校里有着按出身国家划分编成的三个学级。主角将从三个学级中选择一个负责的学级，作为老师教导学生们的同时，也在战场上作为他们的指挥官指挥作战。在前方等待着他们的，究竟会是怎样的命运呢？
 

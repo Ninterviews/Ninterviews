@@ -8,7 +8,7 @@ interviewees:
 - 井上精太
 - 佐藤慎太郎
 - 峰岸透
-last_modified_at: 2022-09-11 19:20
+last_modified_at: 2022-11-07 16:26
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/av5ja/

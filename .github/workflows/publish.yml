@@ -25,7 +25,7 @@ jobs:
           npm install
       - name: Less
         run: |
-          ./node_modules/less/bin/lessc -x assets/css/_base.less assets/css/base.css
+          ./node_modules/less/bin/lessc assets/css/_base.less assets/css/base.css --clean-css="--advanced"
       - name: Build Site
         run: |
           bundle exec jekyll build --trace --profile

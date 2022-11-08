@@ -1,13 +1,13 @@
 ---
 author: Baidao
+date: 2017-06-29
 image: https://www.nintendo.co.jp/hardware/switch/compare/img/compare_switch.jpg
 image_height: 144
 image_width: 443
-date: 2017-06-29
-last_modified_at: 2022-11-07 15:54
 interviewees: 
 - 小泉欢晃
 - 河本浩一
+last_modified_at: 2022-11-07 15:56
 sources: 
 - - https://www.nintendo.co.jp/csr/pdf/nintendo_csr2017.pdf
   - 任天堂CSRレポート 2017
