@@ -4,6 +4,7 @@ on:
   push:
     branches: 
       - master
+      - test
   pull_request:
     branches: 
       - master
@@ -25,7 +26,9 @@ jobs:
           npm install
       - name: Less
         run: |
-          ./node_modules/less/bin/lessc assets/css/_base.less assets/css/base.css --clean-css="--advanced"
+          ./node_modules/less/bin/lessc assets/css/_base.less assets/css/_base.css
+          ./node_modules/clean-css-cli/bin/cleancss assets/css/_base.css -o assets/css/base.css -O1 -O2 "restructureRules:on"
+          rm assets/css/_base.css
       - name: Build Site
         run: |
           bundle exec jekyll build --trace --profile
