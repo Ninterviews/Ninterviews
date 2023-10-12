@@ -41,11 +41,7 @@
                 <li>{{ log }}</li>{% endfor %}
               </ul>
             </div>{% endif %}
-          </div>{% endif %}{% unless jekyll.environment == "development" or page.no_comment %}
-          <div class="ni-content-comment hidden-print">
-            <div id="lv-container" data-id="city" data-uid="MTAyMC80MTk5MS8xODUzOA=="></div>
-            <script src="https://cdn-city.livere.com/js/embed.dist.js" async="async"></script>
-          </div>{% endunless %}
+          </div>{% endif %}
         </div>{% unless page.no_sidenav %}
         <div class="ni-sidenav col-sm-3 hidden-print hidden-xs">
           {% include toc.html html=content h_max=4 class="ni-sidenav-list nav nav-stacked affix" submenu_class="nav nav-stacked" %}
