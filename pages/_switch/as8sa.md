@@ -9,7 +9,7 @@ interviewees:
 - 森井淳司
 - 冈根慎治
 - 横山夏子
-last_modified_at: 2022-07-29 11:00
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/as8sa/
@@ -20,7 +20,7 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/as8sa/
   - "開発者に訊きました : Nintendo Switch Sports"
-title: 开发人员的访谈：Nintendo Switch 运动
+title: 开发人员访谈：Nintendo Switch 运动
 ---
 - **岛村隆行**（<span lang="ja">嶋村 隆行</span>）：任天堂企划制作部担当部长代理。
 - **山下善一**（<span lang="ja">山下 善一</span>）：任天堂企划制作部第4制作组。
@@ -29,7 +29,7 @@ title: 开发人员的访谈：Nintendo Switch 运动
 - **横山夏子**（<span lang="ja">横山 夏子</span>）：任天堂企划制作部第4制作组。
 
 ## 1. 要成为世上最容易同乐的体感游戏
-##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员的访谈”。第5集我们邀请到发售时间定于4月29日（五）的《Nintendo Switch运动》开发人员来进行访谈。
+##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员访谈”。第5集我们邀请到发售时间定于4月29日（五）的《Nintendo Switch运动》开发人员来进行访谈。
 {: .question }
 
 ##### 能否请各位先简单自我介绍一下呢？

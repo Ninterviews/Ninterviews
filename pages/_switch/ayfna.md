@@ -8,7 +8,7 @@ interviewees:
 - 樋口雅大
 - 横田弦纪
 - 中西健太
-last_modified_at: 2023-01-23 13:43
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/ayfna/
@@ -19,7 +19,7 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/ayfna/
   - "開発者に訊きました : ファイアーエムブレム エンゲージ"
-title: 开发人员的访谈：火焰之纹章 结合
+title: 开发人员访谈：火焰之纹章 结合
 ---
 - **郑勉**（<span lang="ja">鄭 勉</span>）：Intelligent Systems总监。
 - **樋口雅大**（<span lang="ja">樋口 雅大</span>）：Intelligent Systems制作人。
@@ -27,7 +27,7 @@ title: 开发人员的访谈：火焰之纹章 结合
 - **中西健太**（<span lang="ja">中西 健太</span>）：任天堂企划制作部第2制作组。
 
 ## 1. 不是“应该玩得了”，而是“想玩”
-##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员的访谈”。第8集我们邀请到即将于1月20日（五）发售的《火焰之纹章 结合》开发人员来进行访谈。
+##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员访谈”。第8集我们邀请到即将于1月20日（五）发售的《火焰之纹章 结合》开发人员来进行访谈。
 {: .question }
 
 ##### 今天的采访也邀请到了Intelligent Systems<sup>[※1](#ref-1)</sup>的开发人员来到任天堂总公司。郑先生、樋口先生，可以先请两位简单自我介绍一下吗？

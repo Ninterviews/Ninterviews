@@ -7,7 +7,7 @@ interviewees:
 - 藤田刚志
 - 安藤浩和
 - 木村
-last_modified_at: 2023-03-16 23:43
+last_modified_at: 2023-10-12 19:07
 links: 
 - - https://www.nintendo.co.jp/switch/a2jya/
   - 《星之卡比 Wii 豪华版》官网
@@ -304,7 +304,7 @@ title: 《星之卡比 Wii 豪华版》的工作
 我期待着能和新的创作者一起工作的日子。  
 请加油！
 
-## 程序员
+## 程序员篇
 {% include figure.html src="https://www.hallab.co.jp/wp-content/uploads/2023/03/blog_20230314_1.jpg" width="600" height="338" %}
 
 你好！我是程序员木村。

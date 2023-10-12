@@ -6,7 +6,7 @@ image_width: 1520
 interviewees: 
 - 盐田兴
 - 山下透
-last_modified_at: 2022-03-24 22:41
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/hardware/detail/switch-oled/index.html
@@ -17,13 +17,13 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/switch-oled/index.html
   - "開発者に訊きました : Nintendo Switch（有機ELモデル）"
-title: 开发人员的访谈：Nintendo Switch（OLED款式）
+title: 开发人员访谈：Nintendo Switch（OLED款式）
 ---
 - **盐田兴**（<span lang="ja">塩田 興</span>）：任天堂董事、高级执行官、技术开发本部长。
 - **山下透**（<span lang="ja">山下 透</span>）：任天堂技术开发部担当部长代理。
 
 ### 1. 游戏机注定要在发售后不断改良
-##### “开发人员的访谈”专栏由开发者亲自说明任天堂对于研发的想法与坚持。第2集访问的两人带头研发了10月8日（五）发售的“Nintendo Switch（OLED款式）”硬件部分。
+##### “开发人员访谈”专栏由开发者亲自说明任天堂对于研发的想法与坚持。第2集访问的两人带头研发了10月8日（五）发售的“Nintendo Switch（OLED款式）”硬件部分。
 {: .question }
 
 ##### 麻烦请先自我介绍一下。

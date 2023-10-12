@@ -8,7 +8,7 @@ interviewees:
 - 熊崎信也
 - 神山达哉
 - 远藤裕贵
-last_modified_at: 2022-11-02 18:01
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/arzga/
@@ -19,7 +19,7 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/arzga/
   - "開発者に訊きました : 星のカービィ　ディスカバリー"
-title: 开发人员的访谈：星之卡比 探索发现
+title: 开发人员访谈：星之卡比 探索发现
 ---
 {% include interviewee.html name="二宫启" info="任天堂企划制作部第2制作组。" %}
 
@@ -30,7 +30,7 @@ title: 开发人员的访谈：星之卡比 探索发现
 {% include interviewee.html name="远藤裕贵" info="HAL研究所，关卡设计总监。" %}
 
 ### 1. 为什么不提高敌人的密度？
-##### “开发人员的访谈”这个单元是通过访谈开发者，让玩家可以了解任天堂在创造游戏时的想法和讲究的地方。在进入第4次的本次，我们访谈了即将在3月25日（五）发售的《星之卡比 探索发现》的开发人员们。首先，可以请各位简单自我介绍一下吗？
+##### “开发人员访谈”这个单元是通过访谈开发者，让玩家可以了解任天堂在创造游戏时的想法和讲究的地方。在进入第4次的本次，我们访谈了即将在3月25日（五）发售的《星之卡比 探索发现》的开发人员们。首先，可以请各位简单自我介绍一下吗？
 {: .question }
 
 ##### 二宫

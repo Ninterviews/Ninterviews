@@ -7,7 +7,7 @@ interviewees:
 - 久保坚太
 - 吉信智章
 - 藤井英树
-last_modified_at: 2022-03-24 22:46
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/azlsa/
@@ -18,7 +18,7 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/azlsa/index.html
   - "開発者に訊きました : やわらかあたま塾 いっしょにあたまのストレッチ"
-title: 开发人员的访谈：灵活脑学校 一起伸展大脑
+title: 开发人员访谈：灵活脑学校 一起伸展大脑
 ---
 - **久保坚太**（<span lang="ja">久保 堅太</span>）：任天堂企划制作部第4制作组。
 - **吉信智章**（<span lang="ja">吉信 智章</span>）：任天堂企划制作部第10制作组。

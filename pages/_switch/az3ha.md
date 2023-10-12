@@ -7,7 +7,7 @@ interviewees:
 - 高桥哲哉
 - 小岛幸
 - 横田弦纪
-last_modified_at: 2023-01-23 12:31
+last_modified_at: 2023-10-12 18:12
 license: official
 links: 
 - - https://www.nintendo.co.jp/switch/az3ha/
@@ -18,14 +18,14 @@ references:
 sources: 
 - - https://www.nintendo.co.jp/interview/az3ha/
   - "開発者に訊きました : ゼノブレイド3"
-title: 开发人员的访谈：异度神剑3
+title: 开发人员访谈：异度神剑3
 ---
 - **高桥哲哉**（<span lang="ja">高橋 哲哉</span>）：Monolith Soft董事。
 - **小岛幸**（<span lang="ja">小島 幸</span>）：Monolith Soft制作人、总监。
 - **横田弦纪**（<span lang="ja">横田 弦紀</span>）：任天堂企划制作部第2制作组。
 
 ## 1. “异度＝性质相异者”之间的关系
-##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员的访谈”。第6集我们邀请到即将于7月29日（五）发售的《异度神剑3》开发人员来进行访谈。
+##### 由开发人员亲自分享任天堂研发理念与坚持的专栏──“开发人员访谈”。第6集我们邀请到即将于7月29日（五）发售的《异度神剑3》开发人员来进行访谈。
 {: .question }
 
 ##### 能否请各位先简单自我介绍一下呢？
